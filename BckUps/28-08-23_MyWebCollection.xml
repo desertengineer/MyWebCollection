@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="MyWebCollection.xsl"?>
+	<Gallery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<Buttons>
+			<Button>
+				<Data>ly-news</Data>
+				<Class>btn ly-news</Class>
+				<OnClick>filterSelection(this)</OnClick>
+				<Title>Click to show all news category</Title>
+				<Text>Libya News</Text>
+			</Button>
+		</Buttons>
+		<Cards>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/10110/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/08/IMG_8732.jpeg</Src>
+				<H4>تظاهرات غاضبة تعم مناطق ليبيا احتجاجا على لقاء “المنقوش” بالوزير الإسرائيلي..</H4>
+				<P>  ليبيا اليوم أثار لقاء وزيرة الخارجية في حكومة الوحدة المؤقتة “نجلاء المنقوش”، بوزير الخارجية الإسرائيلي إيلي كوهين، الذي عُقد… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/10104/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/06/IMG_5400.jpeg</Src>
+				<H4>الخارجية الليبية : لقاء المنقوش وممثل الكيان الصهيوني عارض وغير رسمي وملتزمون بالثوابت الوطنية تجاه القضية الفلسطينية</H4>
+				<P>  ليبيا اليوم ‏‎اكدت الخارجية الليبية التزامها الكامل بالثوابت الوطنية تجاه قضايا الأمتين العربية والإسلامية وفي مقدمتها القضية الفلسطينية مشددة… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/10102/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/06/IMG_5400.jpeg</Src>
+				<H4>مجلس الدولة يرفض لقاء المنقوش وكوهين.. ويطالب بإيقاف القائمين عليه عن العمل</H4>
+				<P>  ليبيا اليوم أعلن المجلس الأعلى للدولة، «رفضه بشدة» لقاء وزيرة الخارجية بحكومة الوحدة الوطنية الموقتة، نجلاء المنقوش، مع وزير… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/10099/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/08/IMG_8374.jpeg</Src>
+				<H4>جبهة النضال الوطني الليبية تدين الاتصالات المشبوهة بين المنقوش ووزير خارجية اسرائيل وتعتبرها اهانة لليبيين</H4>
+				<P>هالة شيحة اعلنت جبهة النضال الوطني الليبية انها تابعت الأخبار المعلنة ،، وغير المعلنة التي تتحدث عن إجتماعات ،، وإتصالات… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/10082/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/08/IMG_8718.jpeg</Src>
+				<H4>عقيلة صالح يثمن جهود «الجيش لتأمين الحدود وطرد المجموعات الإجرامية»</H4>
+				<P>ليبيا اليوم ثمن رئيس مجلس النواب المستشار عقيلة صالح، اليوم السبت، جهود «الجيش الليبي» في «حماية وصيانة التراب الليبي، وتأمين… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/10020/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/08/IMG_8328.jpeg</Src>
+				<H4>الجامعة العربية تُرحب بالإعلان عن إعادة توحيد مصرف ليبيا المركزي</H4>
+				<P>  هالة شيحة رحبت الأمانة العامة لجامعة الدول العربية بالإعلان عن إعادة توحيد مصرف ليبيا المركزي، من قبل المحافظ في… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/10008/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/08/IMG_8546.jpeg</Src>
+				<H4>مصر ترحب بالبيان الليبي المشترك الذي تم توقيعه في بنغازي</H4>
+				<P>  ليبيا اليوم رحبت  مصر  في بيان صادر عن وزارة الخارجية اليوم الأحد، بالبيان المشترك الصادر في مدينة بنغازي يوم… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/9976/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/08/IMG_8328.jpeg</Src>
+				<H4>الجامعة العربية تعرب عن القلق ازاء اشتباكات طرابلس وتدعو للوقف الفوري لاعمال العنف واتمام العملية الانتقالية</H4>
+				<P>  هالة شيحة أعربت جامعة الدول العربية عن بالغ قلقها ازاء الاشتباكات المسلحة التي شهدتها العاصمة الليبية طرابلس أمس ،… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/9969/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/03/2BD51516-F8D6-4D61-8899-E93D640A6E0B.jpeg</Src>
+				<H4>بعثة الأمم المتحدة للدعم في ليبيا تدعو لوقف الاشتباكات المسلحة في طرابلس</H4>
+				<P>ليبيا اليوم اعلنت الأمم المتحدة للدعم في ليبيا انها تتابع بقلق بالغ الأحداث والتطورات الأمنية التي تشهدها طرابلس منذ يوم… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/9961/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/07/IMG_8296.jpeg</Src>
+				<H4>انقلاب النيجر. يهدد بتوقف 3 مشاريع كبرى مع ليبيا</H4>
+				<P>ليبيا اليوم تداعيات خطيرة تفرضها الاحداث المتسارعة في النيجر فبعيداً عن التداعيات الأمنية للانقلاب العسكري في النيجر على دول جوارها،… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220715.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/370623379_599208295480169_7666732733074640237_n-145x100.jpg</Src>
+				<H4>تنسيقية العمل الوطني ومجلسي شباب ونساء فزان تدعو النواب لتشكيل حكومة تسيير أعمال إلى حين إجراء الانتخابات</H4>
+				<P>تنسيقية العمل الوطني ومجلسي شباب ونساء فزان تدعو النواب لتشكيل حكومة تسيير أعمال إلى حين إجراء الانتخابات</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220708.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/PSDالعنوان-18-145x100.jpg</Src>
+				<H4>مصدر: القوة التركية في مطار معيتيقة سهّلت سفر المنقوش ومساعدها</H4>
+				<P>مصدر: القوة التركية في مطار معيتيقة سهّلت سفر المنقوش ومساعدها</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220705.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/cafac9aa-d7b5-409a-b9fc-e885af1e4d49-145x100.jpg</Src>
+				<H4>صحيفة إسرائيلية: “الدبيبة” طلب عودة الطيران بين “روما و طرابلس” مقابل لقاء المنقوش بنظيرها الإسرائيلي</H4>
+				<P>صحيفة إسرائيلية: “الدبيبة” طلب عودة الطيران بين “روما و طرابلس” مقابل لقاء المنقوش بنظيرها الإسرائيلي</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220703.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/وهيبة-145x100.jpg</Src>
+				<H4>متحدثة الرئاسي تكشف أمرًا صادمًا بشأن قرار إقالة المنقوش</H4>
+				<P>متحدثة الرئاسي تكشف أمرًا صادمًا بشأن قرار إقالة المنقوش</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220700.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/3f12bb1b-d865-4e9e-8c8a-facb914df287-145x100.jpg</Src>
+				<H4>اليعقوبي: ليس من العدل أن تتحمل “المنقوش” المسؤلية وتكون كبش فداء</H4>
+				<P>اليعقوبي: ليس من العدل أن تتحمل “المنقوش” المسؤلية وتكون كبش فداء</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220697.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/1693255779_المنقوش-3-145x100.jpg</Src>
+				<H4>موضحة موقف الدبيبة.. صحيفة عبرية: المنقوش ترفض أن تكون “الضحية” وتهدد بأنها تملك “وثائق كثيرة”</H4>
+				<P>موضحة موقف الدبيبة.. صحيفة عبرية: المنقوش ترفض أن تكون “الضحية” وتهدد بأنها تملك “وثائق كثيرة”</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220694.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/4af6fff1-2e07-4d17-bfd2-a98430ebe34a-145x100.jpg</Src>
+				<H4>رئيس الوزراء الإسرائيلي السابق: ما حدث مع “المنقوش” عمل غير احترافي وفشل خطير في الحكم</H4>
+				<P>رئيس الوزراء الإسرائيلي السابق: ما حدث مع “المنقوش” عمل غير احترافي وفشل خطير في الحكم</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220689.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/الدبيبة-المنقوش-145x100.jpg</Src>
+				<H4>وكالة روسية تكشف تفاصيل محادثات ليبية واسرائيلية سبقت لقاء روما</H4>
+				<P>وكالة روسية تكشف تفاصيل محادثات ليبية واسرائيلية سبقت لقاء روما</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220686.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/b162dea5-020d-48d8-a103-fd75141241f3-145x100.jpg</Src>
+				<H4>“حماد” يبحث مع عميد الكفرة أوضاع البلدية واحتياجاتها</H4>
+				<P>“حماد” يبحث مع عميد الكفرة أوضاع البلدية واحتياجاتها</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220680.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/2d521b33-e0f1-47f3-9ee0-cc4c4874cd86-145x100.jpeg</Src>
+				<H4>نصية: واهم من يعتقد أن بوابة الوصول إلى السلطة في ليبيا تكون من تل أبيب</H4>
+				<P>نصية: واهم من يعتقد أن بوابة الوصول إلى السلطة في ليبيا تكون من تل أبيب</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220677.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-28-at-8.48.39-PM-145x100.jpeg</Src>
+				<H4>رئيس الحكومة الليبية المكلفة يبحث أوضاع واحتياجات بلدية الكفرة</H4>
+				<P>رئيس الحكومة الليبية المكلفة يبحث أوضاع واحتياجات بلدية الكفرة</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220674.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/الدبيبة-والمقريف-145x100.jpg</Src>
+				<H4>الدبيبة يبحث مع المقريف الاستعدادات لانطلاق العام الدراسي 2023 – 2024</H4>
+				<P>الدبيبة يبحث مع المقريف الاستعدادات لانطلاق العام الدراسي 2023 – 2024</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220667.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/مجلس-النواب-145x100.jpg</Src>
+				<H4>مجلس النواب: حكومة الدبيبة تواصلت مع الكيان الصهيوني للاستمرار في السلطة</H4>
+				<P>مجلس النواب: حكومة الدبيبة تواصلت مع الكيان الصهيوني للاستمرار في السلطة</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220664.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/5630e3e4-4f90-4b94-9e9d-79801cbb4d00-145x100.jpg</Src>
+				<H4>يديعوت احرونوت: “المنقوش” لن تقبل بأن تكون الضحية في اللقاء الذي جاء بطلب من الدبيبة نفسه</H4>
+				<P>يديعوت احرونوت: “المنقوش” لن تقبل بأن تكون الضحية في اللقاء الذي جاء بطلب من الدبيبة نفسه</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220661.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/المنقوش-الدبيبة-145x100.jpg</Src>
+				<H4>مستشارة وزيرة خارجية ليبيا تحسم الجدل حول مكان تواجد المنقوش</H4>
+				<P>مستشارة وزيرة خارجية ليبيا تحسم الجدل حول مكان تواجد المنقوش</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220658.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/d5953f4b-983f-40a6-a9fe-0f5d3b504b7a-145x100.jpg</Src>
+				<H4>سفير ليبيا بإيطاليا: لم أشارك في اجتماع المنقوش مع نظيرها الإسرائيلي</H4>
+				<P>سفير ليبيا بإيطاليا: لم أشارك في اجتماع المنقوش مع نظيرها الإسرائيلي</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220656.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/07/thumbs_b_c_47d3c63d11f9729ccd3294344f24018d-145x100.jpg</Src>
+				<H4>أبرز ماجاء في بيان مجلس النواب الليبي بعد جلسة طارئة لبحث لقاء المنقوش</H4>
+				<P>أبرز ماجاء في بيان مجلس النواب الليبي بعد جلسة طارئة لبحث لقاء المنقوش</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220653.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/369722195_285541354110297_2284450202076083928_n-1024x579-145x100.jpg</Src>
+				<H4>حمّاد يبحث احتياجات بلدية الكفرة</H4>
+				<P>حمّاد يبحث احتياجات بلدية الكفرة</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220642.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/fca025e9-64ac-448d-89df-681a02fd2350-145x100.jpg</Src>
+				<H4>موقع أمريكي: الكشف عن لقاء “المنقوش” أضر بالجهود الأميركية لتعزيز التطبيع بين إسرائيل وليبيا</H4>
+				<P>موقع أمريكي: الكشف عن لقاء “المنقوش” أضر بالجهود الأميركية لتعزيز التطبيع بين إسرائيل وليبيا</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220640.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/كوهين-145x100.jpg</Src>
+				<H4>سفير ليبيا لدى إيطاليا يرد على انباء مشاركته في لقاء المنقوش مع وزير اسرائيلي</H4>
+				<P>سفير ليبيا لدى إيطاليا يرد على انباء مشاركته في لقاء المنقوش مع وزير اسرائيلي</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2220638.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2022/04/عبدالحميد-الدبيبة-2021-145x100.jpg</Src>
+				<H4>الخارجية الفلسطينية تعلق على تصريحات رئيس حكومة الوحدة الوطنية</H4>
+				<P>الخارجية الفلسطينية تعلق على تصريحات رئيس حكومة الوحدة الوطنية</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+		</Cards>
+</Gallery>

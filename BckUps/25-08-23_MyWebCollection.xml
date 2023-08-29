@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="MyWebCollection.xsl"?>
+<Gallery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Buttons>
+	<Button>
+		<Class>btn</Class>
+		<Data>ly-news</Data>
+		<OnClick>filterSelection(this)</OnClick>
+		<Title>Click to show all news category</Title>
+		<Text>Libyan News</Text>
+	</Button>
+	<Button>
+		<Class>btn</Class>
+		<Data>news</Data>
+		<OnClick>filterSelection(this)</OnClick>
+		<Title>Click to show all news category</Title>
+		<Text>News</Text>
+	</Button>
+	<Button>
+		<Class>btn</Class>
+		<Data>civ-eng</Data>
+		<OnClick>filterSelection(this)</OnClick>
+		<Title>Click to show all civ-eng category</Title>
+		<Text>Civil engineering</Text>
+	</Button>
+	<Button>
+		<Class>btn</Class>
+		<Data>pjct-mgt</Data>
+		<OnClick>filterSelection(this)</OnClick>
+		<Title>Click to show all pjct-mgt category</Title>
+		<Text>Project management</Text>
+	</Button>	
+</Buttons>
+	<Cards>
+		<Card>
+			<Class>column news</Class>
+			<Href>https://www.skynewsarabia.com/live-story/1647529-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%AA%D8%AD%D8%B7%D9%85-%D8%B7%D8%A7%D9%8A%D9%94%D8%B1%D8%A9-%D9%85%D8%AA%D9%86%D9%87%D8%A7-%D8%B2%D8%B9%D9%8A%D9%85-%D9%81%D8%A7%D8%BA%D9%86%D8%B1</Href>
+			<Src>https://images.skynewsarabia.com/images/v1/2023/08/23/1647527/200/150/1-1647527.JPG</Src>
+			<H4>مقتل قائد "فاغنر</H4>
+			<P>مازال الغموض يحيط بأسباب تحطم الطائرة التي كانت تقل مؤسس قوات فاغنر العسكرية، يفغيني بريغوجين، والمرافقين الذي كانوا معه على متنها أثناء الرحلة المقررة لها بين موسكو وسان بطرسبورغ.</P>
+		</Card>
+		<Card>
+			<Class>column news</Class>
+			<Href>https://www.skynewsarabia.com/live-story/1496013-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D9%88%D8%A7%D9%94%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D8%B7%D8%A8%D9%88%D9%84-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%93%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D8%A8%D8%A7%D8%B1</Href>
+			<Src>https://images.skynewsarabia.com/images/v1/2022/01/24/1496012/600/338/1-1496012.jpg</Src>
+			<H4>الحرب في أوكرانيا.. آخر المستجدات</H4>
+			<P>تبادلت أوكرانيا وروسيا هجمات الطائرات المسيرة، في الساعات الأولى من صباح الأربعاء، حيث استهدفت كييف العاصمة الروسية موسكو مجددا في الوقت الذي استهدفت فيه المسيرات الروسية مستودعات تخزين الحبوب الأوكرانية، فيما تحول مؤخرا إلى تكتيك مميز للحرب الدائرة منذ 18 شهرا تقريبا.</P>
+		</Card>
+		<Card>
+			<Class>column news</Class>
+			<Href>https://www.skynewsarabia.com/world/1647563-%D8%AD%D8%A7%D8%AF%D8%AB-%D8%A7%D9%95%D8%B7%D9%84%D8%A7%D9%82-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D9%81%D8%B6%D8%A7%D9%8A%D9%94%D9%8A-%D9%83%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9</Href>
+			<Src>https://images.skynewsarabia.com/images/v1/2023/08/24/1647562/1100/619/1-1647562.jpg</Src>
+			<H4>حادث خلال إطلاق صاروخ فضائي من كوريا الشمالية</H4>
+			<P>أعلنت كوريا الشمالية الخميس فشل محاولتها الثانية خلال أشهر لوضع قمر صناعي في مدار الأرض، وفق ما افادت وسائل إعلام رسمية، معتبرة أن المشكلة ليست "أمرا ذا شأن" ومتعهدة بإطلاق آخر يكون ناجحا في أكتوبر المقبل.
+	</P>
+		</Card>
+		<Card>
+			<Class>column news</Class>
+			<Href>https://www.skynewsarabia.com/middle-east/1647514-%D8%B1%D9%8A%D9%94%D9%8A%D8%B3-%D8%AA%D8%B4%D8%A7%D8%AF-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84%D9%8A-%D9%8A%D8%B1%D8%A7%D8%A8%D8%B7-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D9%88%D9%81%D8%B5%D9%8A%D9%84-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%8A%D9%86%D8%B6%D9%85-%D9%84%D9%84%D8%AA%D9%85%D8%B1%D8%AF</Href>
+			<Src>https://images.skynewsarabia.com/images/v1/2023/08/23/1647512/1100/619/1-1647512.jpg</Src>
+			<H4>رئيس تشاد الانتقالي يرابط على الحدود وفصيل جديد ينضم للتمرد</H4>
+			<P>"في الأثناء، قرر الرئيس التشادي الانتقالي محمد إدريس ديبي، قضاء أسبوع كامل في منطقة تيبستي مع قيادات الجيش متحديا هذه الحركات المسلحة.
+
+وبالتوازي، هددت حركة ""الجبهة الشعبية للإصلاح"" المتمردة، الثلاثاء، بالتصدي للحكومة، وقالت في بيان إن ""بلادنا أصبحت رهينة لدى مجموعة من الأشخاص غير المسؤولين""، داعية كل ""القوى الوطنية"" إلى التوحد من أجل ""انتفاضة وطنية""."</P>
+		</Card>
+		<Card>
+			<Class>column civ-eng</Class>
+			<Href>https://www.ice.org.uk/news-insight/news-and-blogs/ice-blogs/the-civil-engineer-blog/how-well-do-civil-engineers-reduce-reuse-recycle/</Href>
+			<Src>https://www.ice.org.uk/media/p1vb5oiv/earthmoving-equipment-aerial-view.jpg</Src>
+			<H4>How well do civil engineers reduce, reuse and recycle?</H4>
+			<P>This World Environment Day, Chartered Environmentalist Catherine Topliss reflects on the three Rs, the cornerstone of a sustainability professional’s work.</P>
+		</Card>
+		<Card>
+			<Class>column civ-eng</Class>
+			<Href>https://www.ice.org.uk/news-insight/news-and-blogs/ice-blogs/the-civil-engineer-blog/why-holistic-approach-needed-reduce-storm-overflows</Href>
+			<Src>https://www.ice.org.uk/media/yhdg3nqe/storm-drain-cover-overflow-shutterstock.jpg</Src>
+			<H4>Why a holistic approach is needed to reduce storm overflows</H4>
+			<P>It’s not a water crisis, it’s a water management crisis. Storm overflow releases are a national issue requiring urgent, collaborative action.
+	
+	The answer sits with all of us – water companies, councils, property owners, supply chains, partner organisations and the public.
+	
+	Together we need to revamp traditional ways of thinking to create a more sustainable future, going beyond end-of-pipe solutions towards a far more holistic approach.
+	
+	In 2021, Southern Water set up the Clean Rivers and Seas Task Force, a dedicated team focused on reducing the use of storm overflows and preventing flooding.
+	
+	The company also plans to invest £2bn into improving assets and environmental performance in England by 2025.</P>
+		</Card>
+<Card>
+		<Class>column ly-news</Class>
+		<Href>https://alwasat.ly/news/libya/409710</Href>
+		<Src>http://alwasat.ly/uploads/articles/8JUhlbQeuRXwmilqwgoO.jpg</Src>
+		<H4>وفد خبراء وفنيين من «النهر الصناعي» يزور موقع أجدابيا</H4>
+		<P>وفد خبراء وفنيين من «النهر الصناعي» يزور موقع أجدابيا</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://alwasat.ly/news/libya/409710</Href>
+		<Src>http://alwasat.ly/uploads/articles/zybPnboYrGJzIHiAYGz0.jpg</Src>
+		<H4>حماد يشهد أداء اليمين القانونية لأعضاء المجلس البلدي المنتخبين بالبيضاء</H4>
+		<P>حماد يشهد أداء اليمين القانونية لأعضاء المجلس البلدي المنتخبين بالبيضاء</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d8%aa%d8%b4%d9%83%d9%8a%d9%84-%d9%84%d8%ac%d9%86%d8%a9-%d9%85%d8%b4%d8%aa%d8%b1%d9%83%d8%a9-%d9%84%d9%85%d8%aa%d8%a7%d8%a8%d8%b9%d8%a9-%d8%a3%d9%88%d8%b6%d8%a7%d8%b9-%d8%a7%d9%84%d8%b9%d9%85%d8%a7/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>تشكيل لجنة مشتركة لمتابعة أوضاع العمالة الوافدة</H4>
+		<P>بحث وزير الاقتصاد والتجارة بحكومة الوحدة الوطنية محمد الحويج، خلال لقائه، اليوم الخميس، مع وزير العمل والتأهيل علي العابد، آلية…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d8%aa%d8%b4%d9%83%d9%8a%d9%84-%d9%84%d8%ac%d9%86%d8%a9-%d9%85%d8%b4%d8%aa%d8%b1%d9%83%d8%a9-%d9%84%d9%85%d8%aa%d8%a7%d8%a8%d8%b9%d8%a9-%d8%a3%d9%88%d8%b6%d8%a7%d8%b9-%d8%a7%d9%84%d8%b9%d9%85%d8%a7/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>«الكوني» يُؤكد ضرورة العمل للتعاون مع دول العالم الأول</H4>
+		<P>أكد النائب بالمجلس الرئاسي موى الكوني، ضرورة العمل للتعاون مع دول العالم الأول لمساعدة دول المغرب العربي، وأفريقيا لتتجاوز أزماتها…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d8%a7%d9%84%d9%83%d9%88%d9%86%d9%8a-%d9%8a%d9%8f%d8%a4%d9%83%d8%af-%d8%b6%d8%b1%d9%88%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d9%84%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%b9/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>مجلس الأمن الدّولي يؤكد على الملكية الليبية للعملية السياسية في البلاد</H4>
+		<P>أكد مجلس الأمن الدولي التزامه بالعملية السياسية الجامعة بقيادة وملكية ليبية التي تبنى على معالجة قضايا من سيتولى الحكم في…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d8%a7%d9%84%d9%83%d9%88%d9%86%d9%8a-%d9%8a%d9%8f%d8%a4%d9%83%d8%af-%d8%b6%d8%b1%d9%88%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d9%84%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%b9/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>«ساباديل»: الوضع أكثر إلحاحا على ضرورة إنهاء المراحل الانتقالية في ليبيا</H4>
+		<P>قال سفير الاتحاد الأوروبي لدى ليبيا خوسيه ساباديل إنّه اتفق مع رئيس حكومة الوحدة الوطنية على تعزيز التعاون فيما يتعلق…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d8%a7%d9%84%d8%af%d9%91%d9%88%d9%84%d9%8a-%d9%8a%d8%a4%d9%83%d8%af-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d9%84%d9%83%d9%8a%d8%a9-%d8%a7%d9%84/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>اعتماد نتائج شهادة إتمام التعليم الأساسي الدور الثاني بنسبة نجاح 68.11%</H4>
+		<P>اعتمدت وزارة التربية والتعليم نتيجة امتحانات شهادة إتمام مرحلة التعليم الأساسي الدور الثاني للعام الدراسي 2022 – 2023 بنسبة نجاح…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d8%a7%d9%84%d8%af%d9%91%d9%88%d9%84%d9%8a-%d9%8a%d8%a4%d9%83%d8%af-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d9%84%d9%83%d9%8a%d8%a9-%d8%a7%d9%84/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>فرنسا تجدد دعوتها لإجراء انتخابات في ليبيا وتؤكد أهمية الاستقرار</H4>
+		<P>دعت فرنسا أمس الاربعاء إلى إجراء انتخابات شفافة ونزيهة في جميع أنحاء ليبيا في أقرب وقت ممكن.  وقالت السفارة الفرنسية…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d8%b3%d8%a7%d8%a8%d8%a7%d8%af%d9%8a%d9%84-%d8%a7%d9%84%d9%88%d8%b6%d8%b9-%d8%a3%d9%83%d8%ab%d8%b1-%d8%a5%d9%84%d8%ad%d8%a7%d8%ad%d8%a7-%d8%b9%d9%84%d9%89-%d8%b6%d8%b1%d9%88%d8%b1%d8%a9/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>إيطاليا: استقرار ليبيا أولوية لسياستنا الخارجية</H4>
+		<P>قال وزير الخارجية الإيطالي أنطونيو تاياني إنّ استقرار ليبيا يمثل أولوية للسياسة الخارجية الإيطالية. وأعرب تاياني بالقلق من تشرذم البلاد،…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d8%b3%d8%a7%d8%a8%d8%a7%d8%af%d9%8a%d9%84-%d8%a7%d9%84%d9%88%d8%b6%d8%b9-%d8%a3%d9%83%d8%ab%d8%b1-%d8%a5%d9%84%d8%ad%d8%a7%d8%ad%d8%a7-%d8%b9%d9%84%d9%89-%d8%b6%d8%b1%d9%88%d8%b1%d8%a9/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>مصلحة المطارات تبحث التعاون مع الشركات البريطانية</H4>
+		<P>بحث رئيس مصلحة المطارات التابعة لوزارة المواصلات بحكومة الوحدة الوطنية محمد بيت المال، مع نائبة سفير المملكة المتحدة لدى ليبيا…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d8%a7%d8%b9%d8%aa%d9%85%d8%a7%d8%af-%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d8%b4%d9%87%d8%a7%d8%af%d8%a9-%d8%a5%d8%aa%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d8%a3%d8%b3/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>تشكيل لجنة مركزية لمتابعة سير عمل المرافق الطبية</H4>
+		<P>أصدر وزير الصحة المُكلف بحكومة الوحدة الوطنية رمضان أبوجناح، القرار رقم 1211 لسنة 2023م، بتشكيل لجنة مركزية فنية أمنية برئاسة…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d8%a7%d8%b9%d8%aa%d9%85%d8%a7%d8%af-%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d8%b4%d9%87%d8%a7%d8%af%d8%a9-%d8%a5%d8%aa%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d8%a3%d8%b3/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>الرئاسي يبحث الأوضاع في المنطقة العسكرية طرابلس والساحل الغربي</H4>
+		<P>عقد النائب بالمجلس الرئاسي عبد الله اللافي، اليوم الأربعاء، اجتماعاً  مع آمر المنطقة العسكرية الساحل الغربي اللواء دكتور صلاح الدين…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d8%aa%d8%ac%d8%af%d8%af-%d8%af%d8%b9%d9%88%d8%aa%d9%87%d8%a7-%d9%84%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1-%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d9%81%d9%8a-%d9%84/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>مجلس الدولة يُؤكد دعمه للعمل المدني والتطوعي</H4>
+		<P>أكد رئيس المجلس الأعلى للدولة محمد تكالة، دعم المجلس للعمل المدني والتطوعي وحرصه على استمرارية عمل المؤسسات المدنية للمساهمة في…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d8%aa%d8%ac%d8%af%d8%af-%d8%af%d8%b9%d9%88%d8%aa%d9%87%d8%a7-%d9%84%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1-%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d9%81%d9%8a-%d9%84/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>مطالبات بتفويض الرئاسي لتجميد عمل مجلسي النوّاب والدولة</H4>
+		<P>عُقِد اليوم الأربعاء، بالعاصمة طرابلس، لقاء ضم عدداً من الأحزاب السياسية ومؤسسات المجتمع المدني والاتحادات والنقابات والروابط النيابية والنسائية الليبية…</P>
+	</Card>
+	<Card>
+		<Class>column ly-news</Class>
+		<Href>https://www.eanlibya.com/%d8%a5%d9%8a%d8%b7%d8%a7%d9%84%d9%8a%d8%a7-%d8%a7%d8%b3%d8%aa%d9%82%d8%b1%d8%a7%d8%b1-%d9%84%d9%8a%d8%a8%d9%8a%d8%a7-%d8%a3%d9%88%d9%84%d9%88%d9%8a%d8%a9-%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d8%aa%d9%86/</Href>
+		<Src>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAE4AQMAAADcmkDrAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAClJREFUGBntwTEBAAAAwiD7p14ND2AAAAAAAAAAAAAAAAAAAAAAAABnAkkgAAHxFDybAAAAAElFTkSuQmCC</Src>
+		<H4>«أبوجناح» يتعّهد بحل مشكلة الإمدادات الطبية خلال الفترة القادمة</H4>
+		<P>تعهد نائب رئيس حكومة الوحدة الوطنية، ووزير الصحة المكلف، رمضان أبوجناح بحل مشكلة الإمدادات الطبية خلال شهور.   وقال أبوجناح إنّ…</P>
+	</Card>
+		<Card>
+			<Class>column civ-eng</Class>
+			<Href>https://www.ice.org.uk/news-insight/news-and-blogs/ice-blogs/the-civil-engineer-blog/eng-solutions-that-raise-bar-climate-resilience</Href>
+			<Src>https://www.ice.org.uk/media/shjdcr2e/water-treatment-nepal.jpg</Src>
+			<H4>5 engineering solutions raising the bar for climate-resilient infrastructure</H4>
+			<P>Climate change is often experienced in the form of disasters and extreme weather that wreak havoc on communities and infrastructure.
+	
+	Ensuring infrastructure is sustainable and resilient is crucial to improving the ability of communities everywhere to adapt, minimising disruption and saving lives.
+	
+	As part of its contribution to the #RacetoResilience campaign, the International Coalition for Sustainable Infrastructure (ICSI) has been collating excellent examples of climate-resilient infrastructure initiatives across the globe.
+	
+	These have been compiled into the recently published Climate Resilient Infrastructure Report.</P>
+		</Card>
+		<Card>
+			<Class>column civ-eng</Class>
+			<Href>https://www.ice.org.uk/news-insight/news-and-blogs/ice-blogs/the-civil-engineer-blog/how-ice-helps-get-engineers-a-seat-at-the-table</Href>
+			<Src>https://www.ice.org.uk/media/tqmfze2x/david-smith-at-un-hq.jpg</Src>
+			<H4>How the ICE is helping engineers get a seat at the table</H4>
+			<P>Since the development of big UN frameworks such as the Sustainable Development Goals in 2015, we rarely see UN agencies approach engineers to ask for our expertise on implementation.
+	
+	Recently, however, I’ve been delighted to be part of a project which has encouraged the UN office for Disaster Risk Reduction (UNDRR) to directly seek our input and participation.
+	
+	This is all thanks to our work last summer on the Sendai Framework. It led to the International Coalition for Sustainable Infrastructure (ICSI), the ICE and the engineering community being invited to host a prestigious event in New York last month at UN HQ.
+	
+	Infrastructure is the backbone of a safe, functioning and prosperous society.
+	
+	It underpins implementation of sustainable development and it plays a vital role in the implementation of disaster risk reduction (DRR) and resilience.
+	
+	It’s a massive step forwards that this is being recognised by the UNDRR.</P>
+		</Card>
+		<Card>
+			<Class>column pjct-mgt</Class>
+			<Href>https://www.apm.org.uk/blog/8-top-tips-on-managing-stakeholders/</Href>
+			<Src>https://www.apm.org.uk/v2/media/cnvnixw0/gettyimages-827810724.jpg</Src>
+			<H4>8 top tips on managing stakeholders</H4>
+			<P>Three experienced project professionals at APM’s Change Changes conference gave their hard-won advice on how to manage your stakeholders. Below are their top tips.  </P>
+		</Card>
+		<Card>
+			<Class>column pjct-mgt</Class>
+			<Href>https://www.apm.org.uk/blog/what-does-ai-mean-for-project-delivery/</Href>
+			<Src>https://www.apm.org.uk/v2/media/brrlgz4j/gettyimages-1189561513.jpg</Src>
+			<H4>What does AI mean for project delivery?</H4>
+			<P>In his 1950 paper ‘Computing Machinery and Intelligence’, the godfather of computer science, Alan Turing, posed the question: can machines think? He cannot possibly have known then how far technology would come in the 70 years that followed.  
+	</P>
+		</Card>
+		<Card>
+			<Class>column pjct-mgt</Class>
+			<Href>https://www.apm.org.uk/blog/project-management-meets-getting-things-done/</Href>
+			<Src>https://www.apm.org.uk/v2/media/5c4joepu/gettyimages-1357880802.jpg</Src>
+			<H4>Project management meets getting things done</H4>
+			<P>What can we learn from attention management?
+	The world of programme and project management is full of workstreams, deliverables and actions plans. But how do we avoid drowning in the sea of priorities? How do we ensure that stress doesn’t overwhelm us and impact our energy and productivity? Here are some simple techniques from my experience on how to be productive that could provide some light relief.</P>
+		</Card>
+		<Card>
+			<Class>column pjct-mgt</Class>
+			<Href>https://www.apm.org.uk/blog/how-do-project-managers-control-the-decision-to-make-a-change/</Href>
+			<Src>https://www.apm.org.uk/v2/media/gzelcxmy/gettyimages-1137305438.jpg</Src>
+			<H4>How do project managers control the decision to make a change?</H4>
+			<P>So you’ve agreed your scope, requirements are defined, timelines have all been worked through and costs have been endorsed. In short, you’ve agreed the baseline of your project. What a perfect start!
+	
+	Given that very solid basis, you may be seduced into thinking failure is impossible and adaptation is unnecessary since it’s all been thought through and documented. A kind of unsinkable plan… almost Titanic-like in nature.
+	
+	There’s nothing wrong with a good plan, but remember the old military adage: no plan survives first contact with the enemy. Very quicky, real life takes over and you appreciate that delivery is based on development that hasn’t completed, testing that hasn’t started and changing market conditions.
+	
+	Suddenly, change has come knocking on the project manager’s door.</P>
+		</Card>
+	</Cards>
+</Gallery>

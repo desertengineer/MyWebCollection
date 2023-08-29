@@ -69,7 +69,7 @@
     </script>
 <!-- END MAIN -->
 </div>
-<script src="MyWebCollection.js"></script> 
+<script src="https://desertengineer.github.io/MyWebCollection/MyWebCollection.js"></script> 
 </body>
 </html>
 </xsl:template>

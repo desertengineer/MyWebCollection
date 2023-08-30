@@ -30,7 +30,7 @@
         <div class="dropdown-content">
             <xsl:for-each select="/Gallery/Buttons/Button "> 
                 <xsl:if test="Category=$myCategory">
-                    <a href="javascript:void(0);" class="{Class}" data-categ= "{Data}" onclick="{OnClick}"><xsl:value-of select="Text"/> </a>
+                    <a class="{Class}" data-categ= "{Data}" onclick="{OnClick}"><xsl:value-of select="Text"/> </a>
                 </xsl:if>
             </xsl:for-each>  
         </div>

@@ -84,8 +84,8 @@ function getContents()
 {
 	//console.log("Hello");
   var myPath="https://desertengineer.github.io/MyWebCollection/";
-	var xml = loadXMLDoc(myPath+MyWebCollectionDdn+".xml");
-	var xsl = loadXMLDoc(myPath+MyWebCollectionDdn+".xsl");
+	var xml = loadXMLDoc(myPath+"MyWebCollectionDdn.xml");
+	var xsl = loadXMLDoc(myPath+"MyWebCollectionDdn.xsl");
 // code for IE
 if (window.ActiveXObject || xhttp.responseType == "msxml-document")
 	{

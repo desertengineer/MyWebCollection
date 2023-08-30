@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> 
-<xsl:template match 
+<xsl:template match="/"> 
 <html>
 <head>
     <title>My dropdown Updates</title>
@@ -23,7 +23,7 @@
         <div class="dropdown-content">
             <xsl:for-each select="/Gallery/Buttons/Button "> 
                 <xsl:if test="Category=$myCategory">
-                    <a class="{Class}" data-categ= "{Data}" onclick="{OnClick}"><xsl:value-of select="Text"/> </a>
+                    <a href="javascript:void(0);" class="{Class}" data-categ= "{Data}" onclick="{OnClick}"><xsl:value-of select="Text"/> </a>
                 </xsl:if>
             </xsl:for-each>  
         </div>
@@ -63,4 +63,4 @@
 </body>
 </html>
 </xsl:template> 
-</xsl:stylesheet> 
+</xsl:stylesheet>

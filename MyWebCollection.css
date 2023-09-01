@@ -1,5 +1,5 @@
 * {box-sizing: border-box;} 
-body {background-color: black;padding: 20px;font-family: Arial;}/* Center website */
+body {background-color: black;padding: 20px;}/* font-family: Arial;Center website */
 .main {max-width: 1200px;margin: auto;}
 h1 {font-size: 50px;word-break: break-all;color: gold;}
 .main h2{color:blue;background-color: cornsilk;padding: 8px;font-style: italic;}

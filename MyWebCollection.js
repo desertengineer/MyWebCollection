@@ -1,23 +1,19 @@
-filterSelection(document.getElementsByClassName("active")[0]);
-addAttr(document.querySelectorAll("body > div > div.row > div > div > a"),"target","_blank") 
-function addAttr(elem,attr,attrVal) {
-   var bound=elem.length;
+var xml ,xsl;
+function getContents()
+{
+	//console.log("Hello"); 
+	 xml = loadXMLDoc("./MyWebCollection.xml");
+	 xsl = loadXMLDoc("./MyWebCollection.xsl");
+
+	setTimeout(startUp(),5000);
+}
+
+function addAttr(elems,attr,attrVal) {
+   var bound=elems.length;
   for (let index = 0; index < bound; index++) {
-    document.querySelectorAll("body > div > div.row > div > div > a")[index].setAttribute(attr,attrVal);
+    document.querySelectorAll(".content a")[index].setAttribute(attr,attrVal);
   }
 }
-window.addEventListener("load", function(){  
-  var bound = document.querySelectorAll(".content").length;  
-for (let count = 0; count < bound; count++) { 
-    var elemDir=document.querySelectorAll(".content")[count].getAttribute('dir');
-    var elem=document.querySelectorAll(".content .fullStory")[count]; 
-    if (elemDir=="rtl") {
-        elem.innerText="المزيد ...";      
-    } 
-    if (elemDir=="ltr") {
-      elem.innerText="... More";
-    }}
-});
 
 function filterSelection(elem) {
   var x,c, i;
@@ -52,40 +48,8 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-    this.click();
-  });
-}
-function loadXMLDoc(filename)
-	{
-	if (window.ActiveXObject)
-		{
-		xhttp = new ActiveXObject("Msxml2.XMLHTTP");
-		}
-	else
-		{
-		xhttp = new XMLHttpRequest();
-		}
-	xhttp.open("GET", filename, false);
-	try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
-	xhttp.send("");
-	return xhttp.responseXML;
-	}
-	
-function getContents()
-{
-	//console.log("Hello");
-  var myPath="https://desertengineer.github.io/MyWebCollection/";
-	var xml = loadXMLDoc(myPath+"MyWebCollectionDdn.xml");
-	var xsl = loadXMLDoc(myPath+"MyWebCollectionDdn.xsl");
+function startUp() {
+  //setTimeout(console.log(xsl),5000);
 // code for IE
 if (window.ActiveXObject || xhttp.responseType == "msxml-document")
 	{
@@ -100,4 +64,47 @@ else if (document.implementation && document.implementation.createDocument)
 	resultDocument = xsltProcessor.transformToFragment(xml, document); 
 	document.getElementById('myDoc').appendChild(resultDocument);
 	}
+filterSelection(document.getElementsByClassName("active")[0]);
+addAttr(document.querySelectorAll(".content a"),"target","_blank");
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+    this.click();
+  });
 }
+window.addEventListener("load", function(){  
+  var bound = document.querySelectorAll(".content").length;  
+for (let count = 0; count < bound; count++) { 
+    var elemDir=document.querySelectorAll(".content")[count].getAttribute('dir');
+    var elem=document.querySelectorAll(".content .fullStory")[count]; 
+    if (elemDir=="rtl") { 
+        elem.innerHTML="المزيد ...";      
+    } 
+    if (elemDir=="ltr") {
+      elem.innerText="... More";
+    }}
+});
+  
+}
+function loadXMLDoc(filename)
+	{
+	if (window.ActiveXObject)
+		{
+		xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+		}
+	else
+		{
+		xhttp = new XMLHttpRequest();
+		}
+	xhttp.open("GET", filename, false);
+	try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+	xhttp.send("");
+	//console.log(xhttp.responseXML); 
+	return xhttp.responseXML;
+	}
+	

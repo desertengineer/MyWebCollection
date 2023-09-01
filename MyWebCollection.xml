@@ -1,5 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="MyWebCollection.xsl"?>
+<?xml version="1.0" encoding="utf-8"?> 
 	<Gallery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<Categories>
+			<Category id="Local News">
+				<Item>Libya News</Item>
+				</Category>
+			<Category id="Engineering">
+				<Item>Project Management</Item>
+				</Category>
+			<Category id="News">
+				<Item>Middle East News</Item>
+				<Item>Arab News</Item>
+				<Item>World News</Item>
+				</Category>
+		</Categories>
 		<Buttons>
 			<Button>
 				<Data>ly-news</Data>
@@ -7,6 +20,7 @@
 				<OnClick>filterSelection(this)</OnClick>
 				<Title>Click to show all news category</Title>
 				<Text>Libya News</Text>
+				<Category>Local News</Category>
 			</Button>
 			<Button>
 				<Data>pjct-mgt</Data>
@@ -14,6 +28,7 @@
 				<OnClick>filterSelection(this)</OnClick>
 				<Title>Click to show all news category</Title>
 				<Text>Project Management</Text>
+				<Category>Engineering</Category>
 			</Button>
 			<Button>
 				<Data>mena-news</Data>
@@ -21,6 +36,7 @@
 				<OnClick>filterSelection(this)</OnClick>
 				<Title>Click to show all news category</Title>
 				<Text>Middle East News</Text>
+				<Category>News</Category>
 			</Button>
 			<Button>
 				<Data>ar-news</Data>
@@ -28,6 +44,7 @@
 				<OnClick>filterSelection(this)</OnClick>
 				<Title>Click to show all news category</Title>
 				<Text>Arab News</Text>
+				<Category>News</Category>
 			</Button>
 			<Button>
 				<Data>all-news</Data>
@@ -35,233 +52,252 @@
 				<OnClick>filterSelection(this)</OnClick>
 				<Title>Click to show all news category</Title>
 				<Text>World News</Text>
+				<Category>News</Category>
 			</Button>
 		</Buttons>
 		<Cards>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410163</Href>
-				<Src>http://alwasat.ly/uploads/articles/cS3DIE7oRUVRDn2AjBFN.jpg</Src>
-				<H4>وقفة احتجاجية في المرج للتنديد بلقاء «المنقوش - كوهين» (صور)</H4>
-				<P>وقفة احتجاجية في المرج للتنديد بلقاء «المنقوش - كوهين» (صور)</P>
+				<Href>https://alwasat.ly/news/libya/410541</Href>
+				<Src>http://alwasat.ly/uploads/articles/7SyrOhJjWOihpjhHNTfA.jpg</Src>
+				<H4>حصيلة المصابين بالتسمم في الخمس ترتفع إلى 42 حالة</H4>
+				<P>حصيلة المصابين بالتسمم في الخمس ترتفع إلى 42 حالة</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410161</Href>
-				<Src>http://alwasat.ly/uploads/articles/GZicM7h1VTxASBOnRc6G.jpg</Src>
-				<H4>مصدر لـ«بوابة الوسط»: المنقوش غادرت إسطنبول إلى لندن</H4>
-				<P>مصدر لـ«بوابة الوسط»: المنقوش غادرت إسطنبول إلى لندن</P>
+				<Href>https://alwasat.ly/news/libya/410537</Href>
+				<Src>http://alwasat.ly/uploads/articles/EpEhOdGMnkjOpTAOrhz7.jpg</Src>
+				<H4>حالة الطقس في ليبيا (الجمعة 1 سبتمبر 2023)</H4>
+				<P>حالة الطقس في ليبيا (الجمعة 1 سبتمبر 2023)</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410157</Href>
-				<Src>http://alwasat.ly/uploads/articles/AWPymij8ARvOPnuqWj4Z.jpg</Src>
-				<H4>أسعار العملات الأجنبية في السوق الموازية (الإثنين 28 أغسطس 2023)</H4>
-				<P>أسعار العملات الأجنبية في السوق الموازية (الإثنين 28 أغسطس 2023)</P>
+				<Href>https://alwasat.ly/news/libya/410535</Href>
+				<Src>http://alwasat.ly/uploads/articles/60vkHZTNI4z1UNvVDoEP.jpg</Src>
+				<H4>اختتام دورة «الاقتحامات» في معهد التدريب للعمليات الأمنية (صور)</H4>
+				<P>اختتام دورة «الاقتحامات» في معهد التدريب للعمليات الأمنية (صور)</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410156</Href>
-				<Src>http://alwasat.ly/uploads/articles/sglSSvyVwUPTYbr2x3PB.jpg</Src>
-				<H4>«أكسيوس»: إدارة بايدن منزعجة من «إسرائيل» جراء تسريب لقاء المنقوش وكوهين</H4>
-				<P>«أكسيوس»: إدارة بايدن منزعجة من «إسرائيل» جراء تسريب لقاء المنقوش وكوهين</P>
+				<Href>https://alwasat.ly/news/libya/410529</Href>
+				<Src>http://alwasat.ly/uploads/articles/fRqROurtbvOcSkbpgvaS.jpg</Src>
+				<H4>انطلاق أولى رحلات الخطوط الليبية إلى المدينة المنورة الشهر الجاري</H4>
+				<P>انطلاق أولى رحلات الخطوط الليبية إلى المدينة المنورة الشهر الجاري</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410155</Href>
-				<Src>http://alwasat.ly/uploads/articles/bqq5SvxihEasGTa64AIc.jpg</Src>
-				<H4>الدبيبة يعلن من سفارة فلسطين تجريم التطبيع وإدانته لأي اتصال مع دولة الاحتلال</H4>
-				<P>الدبيبة يعلن من سفارة فلسطين تجريم التطبيع وإدانته لأي اتصال مع دولة الاحتلال</P>
+				<Href>https://alwasat.ly/news/libya/410528</Href>
+				<Src>http://alwasat.ly/uploads/articles/NyM8isRDr1dwDQlcnfN6.jpg</Src>
+				<H4>«الصحة» تعلن تجهيز «سبها الطبي» بأكبر قسم حضانات في المنطقة الجنوبية</H4>
+				<P>«الصحة» تعلن تجهيز «سبها الطبي» بأكبر قسم حضانات في المنطقة الجنوبية</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410152</Href>
-				<Src>http://alwasat.ly/uploads/articles/wdTVUFslwfaDmYJczgYJ.jpg</Src>
-				<H4>صمت لافت للدبيبة وحكومته إزاء واقعة «المنقوش - كوهين».. واكتفاء بإصدار بيانات</H4>
-				<P>صمت لافت للدبيبة وحكومته إزاء واقعة «المنقوش - كوهين».. واكتفاء بإصدار بيانات</P>
+				<Href>https://alwasat.ly/news/libya/410526</Href>
+				<Src>http://alwasat.ly/uploads/articles/mygP6Ht1xCtjqwwD6AYk.jpg</Src>
+				<H4>«أمن طرابلس»: ضبط 53 متهما في قضايا متفرقة خلال 7 أيام</H4>
+				<P>«أمن طرابلس»: ضبط 53 متهما في قضايا متفرقة خلال 7 أيام</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410148</Href>
-				<Src>http://alwasat.ly/uploads/articles/m3i2iX6GlGYbRaSzUJwZ.jpg</Src>
-				<H4>ملتقى حواري إعلامي لدعم قضايا المرأة وتجريم العنف الإلكتروني</H4>
-				<P>ملتقى حواري إعلامي لدعم قضايا المرأة وتجريم العنف الإلكتروني</P>
+				<Href>https://alwasat.ly/news/libya/410531</Href>
+				<Src>http://alwasat.ly/uploads/articles/JylSGwSDvwENf1kBjFCx.jpg</Src>
+				<H4>الشويهدي ينفي صدور بيان من «6+6» بخصوص التوافق النهائي على قوانين الانتخابات</H4>
+				<P>الشويهدي ينفي صدور بيان من «6+6» بخصوص التوافق النهائي على قوانين الانتخابات</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410145</Href>
-				<Src>http://alwasat.ly/uploads/articles/lrjTzG8YmyIVViVpsohA.jpg</Src>
-				<H4>عبدالهادي الحويج للقنصل الفلسطيني ببنغازي: ما قامت به حكومة الدبيبة لا يمثل ليبيا</H4>
-				<P>عبدالهادي الحويج للقنصل الفلسطيني ببنغازي: ما قامت به حكومة الدبيبة لا يمثل ليبيا</P>
+				<Href>https://alwasat.ly/news/libya/410523</Href>
+				<Src>http://alwasat.ly/uploads/articles/cqrnXNxMhVaZHAinnY6x.jpg</Src>
+				<H4>العلاقات «الليبية ــ البريطانية» في وثائق الأرشيف الإنجليزي</H4>
+				<P>العلاقات «الليبية ــ البريطانية» في وثائق الأرشيف الإنجليزي</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410142</Href>
-				<Src>http://alwasat.ly/uploads/articles/RgXLAdUYMsPpAHrBYCEZ.jpg</Src>
-				<H4>شاهد في «تغطية خاصة»: ليبيا وإسرائيل لماذا؟ ومن المسؤول؟</H4>
-				<P>شاهد في «تغطية خاصة»: ليبيا وإسرائيل لماذا؟ ومن المسؤول؟</P>
+				<Href>https://alwasat.ly/news/libya/410522</Href>
+				<Src>http://alwasat.ly/uploads/articles/qGT7C3n03y6sAobTXw4W.jpg</Src>
+				<H4>جريدة «الوسط»: هل تُسقط فلسطين حكومة عبد الحميد الدبيبة؟</H4>
+				<P>جريدة «الوسط»: هل تُسقط فلسطين حكومة عبد الحميد الدبيبة؟</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410138</Href>
-				<Src>http://alwasat.ly/uploads/articles/HVeXvHrrPoNe1Vh8PCwf.jpg</Src>
-				<H4>بمعدل 2000 برميل يوميا.. «نفوسة» تبدأ إنتاج النفط الخام من بئر جديدة</H4>
-				<P>بمعدل 2000 برميل يوميا.. «نفوسة» تبدأ إنتاج النفط الخام من بئر جديدة</P>
+				<Href>https://alwasat.ly/news/libya/410520</Href>
+				<Src>http://alwasat.ly/uploads/articles/40D53nwpzTEVtKy8JiaS.jpg</Src>
+				<H4>ارتفاع عدد مصابي التسمم الغذائي في الخمس إلى 35 حالة</H4>
+				<P>ارتفاع عدد مصابي التسمم الغذائي في الخمس إلى 35 حالة</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410136</Href>
-				<Src>http://alwasat.ly/uploads/articles/8vY4xrR07BSZajJK4j1D.jpg</Src>
-				<H4>ديوان المحاسبة يشكل فريق متابعة مع المصرف الخارجي لتنفيذ توصيات المراجعة</H4>
-				<P>ديوان المحاسبة يشكل فريق متابعة مع المصرف الخارجي لتنفيذ توصيات المراجعة</P>
+				<Href>https://alwasat.ly/news/libya/410519</Href>
+				<Src>http://alwasat.ly/uploads/articles/tXwKhD2R8PyE0Xby2rQB.jpg</Src>
+				<H4>لجنة «6+6» تعلن التوافق على النسخة النهائية للقوانين الانتخابية وانتهاء مهامها</H4>
+				<P>لجنة «6+6» تعلن التوافق على النسخة النهائية للقوانين الانتخابية وانتهاء مهامها</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410133</Href>
-				<Src>http://alwasat.ly/uploads/articles/3oWMc2Lnl57kNSq7ubxj.jpg</Src>
-				<H4>سفير فلسطين في طرابلس: الدبيبة زارنا وأكد موقف ليبيا الداعم للقضية الفلسطينية وأعلن إقالة المنقوش</H4>
-				<P>سفير فلسطين في طرابلس: الدبيبة زارنا وأكد موقف ليبيا الداعم للقضية الفلسطينية وأعلن إقالة المنقوش</P>
+				<Href>https://alwasat.ly/news/libya/410517</Href>
+				<Src>http://alwasat.ly/uploads/articles/WiqPJuPf2WMiMM6uom2r.jpg</Src>
+				<H4>إدارة مستشفى حكومي تستولي على أجهزة طبية بقيمة مليون و25 ألف دينار</H4>
+				<P>إدارة مستشفى حكومي تستولي على أجهزة طبية بقيمة مليون و25 ألف دينار</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d9%8a%d9%8f%d8%a4%d9%83%d8%af-%d8%b1%d9%81%d8%b6%d9%87-%d8%a3%d9%8a-%d8%aa%d8%b7%d8%a8%d9%8a%d8%b9-%d9%85%d8%b9-%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-4044577963-470x312-c.jpg</Src>
-				<H4>«الدبيبة» يُؤكد رفضه أي تطبيع مع إسرائيل</H4>
-				<P>قام رئيس حكومة الوحدة الوطنية عبد الحميد الدبيبة، اليوم الاثنين، بزيارة إلى مقر سفارة دولة فلسطين في العاصمة طرابلس. وبحسب…</P>
+				<Href>https://www.eanlibya.com/%d9%84%d9%8a%d8%a8%d9%8a%d8%a7-%d8%aa%d9%8f%d8%a4%d9%8a%d8%af-%d8%aa%d8%a3%d8%b3%d9%8a%d8%b3-%d9%85%d8%ac%d9%84%d8%b3-%d9%88%d8%b2%d8%b1%d8%a7%d8%a1-%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d8%a7%d9%84%d8%b3/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-2659312146-470x312-c.jpg</Src>
+				<H4>ليبيا تُؤيد تأسيس مجلس وزراء الأمن السيبراني العرب</H4>
+				<P>أكد وزير الاقتصاد والتجارة بحكومة الوحدة الوطنية محمد الحويج، تأييد دولة ليبيا لمقترح تأسيس مجلس وزراء الأمن السيبراني العرب لما…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d8%a7%d9%84%d8%b5%d9%84%d8%a7%d8%a8%d9%8a-%d8%a7%d9%84%d8%a3%d8%ac%d8%b3%d8%a7%d9%85-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d9%87%d8%b2%d9%8a%d9%84%d8%a9-%d8%aa%d8%aa%d8%ad/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-3953605544-470x312-c.jpg</Src>
-				<H4>الصلابي: الأجسام السياسية الهزيلة تتحمل مسؤولية مخطط التطبيع</H4>
-				<P>قال عضو الأمانة العامة للاتحاد العالمي لعلماء المسلمين الدكتور علي محمد الصلابي، إن التطبيع مع الاحتلال الإسرائيلي مخطط شيطاني تتحمل…</P>
+				<Href>https://www.eanlibya.com/%d8%a7%d9%84%d8%af%d8%a8%d9%8a%d8%a8%d8%a9-%d9%8a%d9%8f%d8%b4%d9%8a%d8%af-%d8%a8%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d9%84%d8%aa%d8%b9%d8%a7%d9%85%d9%84%d9%87/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-5101033416-470x312-c.jpg</Src>
+				<H4>«الدبيبة» يُشيد بأجهزة الأمن لتعاملها المهني مع محاولات التخريب</H4>
+				<P>أشاد رئيس حكومة الوحدة الوطنية “عبد الحميد الدبيبة” بأجهزة الأمن لتعاملها المهني مع محاولات التسلل والاختراق لجر البلاد إلى العنف…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d9%85%d9%86%d8%b8%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ac%d8%aa%d9%85%d8%b9-%d8%a7%d9%84%d9%85%d8%af%d9%86%d9%8a-%d9%85%d8%b5%d8%b1%d8%a7%d8%aa%d8%a9-%d8%aa%d9%8f%d8%af%d9%8a%d9%86-%d9%85%d8%ad/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-2705288052-470x312-c.jpg</Src>
-				<H4>منظمات المجتمع المدني مصراتة تُدين محاولة التطبيع مع إسرائيل</H4>
-				<P>أدانت منظمات المجتمع المدني مصراتة ما وصفتها بالسابقة الخطيرة والمحاولة البائسة والتواصل غير المعلن الذي تم في روما مع وزير…</P>
+				<Href>https://www.eanlibya.com/%d8%b5%d9%88%d8%b1-%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d9%82%d8%b1%d8%a7%d8%b1-%d9%8a%d8%b6%d8%a8%d8%b7-%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d9%86-%d8%b9%d9%86-%d8%a7%d9%84%d9%82-11/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-1853646030-470x312-c.jpg</Src>
+				<H4>صور.. «دعم الاستقرار» يضبط خارجين عن القانون</H4>
+				<P>أعلن جهاز دعم الاستقرار، عن ضبط عدد من الخارجين عن القانون في مناطق متفرقة من العاصمة طرابلس، ضمن عمليات متواصلة تقوم…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d8%a3%d8%b3%d9%88%d8%b4%d9%8a%d8%aa%d8%af-%d8%a8%d8%b1%d8%b3-%d8%a7%d9%84%d8%af%d8%a8%d9%8a%d8%a8%d8%a9-%d8%b9%d9%84%d9%89-%d8%b9%d9%84%d9%85-%d8%a8%d8%a7%d8%ac%d8%aa%d9%85/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/05/img-5008171910-e1684349492551-470x312-c.jpg</Src>
-				<H4>«أسوشيتد برس»: «الدبيبة» على علم باجتماع «المنقوش» ولا يمانع التطبيع مع إسرائيل</H4>
-				<P>نقلت وكالة «أسوشيتد برس» عن مسؤولان رفيعان في الحكومة أنّ رئيس الوزراء عبدالحميد الدبيبة كان على علم بالمحادثات بين وزير…</P>
+				<Href>https://www.eanlibya.com/%d8%a7%d9%84%d9%83%d9%84%d9%85%d8%a9-%d9%84%d9%84%d8%b4%d8%b9%d9%88%d8%a8-%d9%88%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d8%b9-%d8%a5%d9%84%d9%89-%d8%b2%d9%88%d8%a7%d9%84-%d8%aa%d8%b8%d8%a7/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-3910680284-470x312-c.jpeg</Src>
+				<H4>«الكلمة للشعوب والتطبيع إلى زوال».. تظاهرة في غزة داعمة لليبيين الرافضين لـ«التطبيع»</H4>
+				<P>أشاد فلسطينيون في قطاع غزة بالموقف الليبي الشعبي والرسمي الرافض للقاء وزيرة الخارجية نجلاء المنقوش مع نظيرها الإسرائيلي إيلي كوهين…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d9%85%d8%b3%d8%a4%d9%88%d9%84-%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84%d9%8a-%d8%a7%d9%84%d8%af%d8%a8%d9%8a%d8%a8%d8%a9-%d9%8a%d8%b1%d9%89-%d9%81%d9%8a-%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2021/08/img-4823160150-470x312-c.jpg</Src>
-				<H4>مسؤول إسرائيلي: «الدبيبة» يرى في إسرائيل جسر محتمل نحو أوروبا وأمريكا</H4>
-				<P>قال مسؤول إسرائيلي لوكالة «رويترز»، إنّ اجتماع وزير الخارجية الإسرائيلي، إيلي كوهين، مع الوزيرة الموقوفة والمحالة للتحقيق نجلاء المنقوش، «تم…</P>
+				<Href>https://www.eanlibya.com/%d8%a8%d9%8012-%d8%a3%d9%84%d9%81-%d8%af%d9%8a%d9%86%d8%a7%d8%b1-%d9%85%d8%b5%d8%b1%d9%8a-%d9%8a%d8%b4%d8%b1%d9%8a-%d8%ac%d9%88%d8%a7%d8%b2-%d8%b3%d9%81%d8%b1-%d9%84%d9%8a%d8%a8%d9%8a-%d9%88%d9%8a/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-0624435478-470x312-c.jpeg</Src>
+				<H4>بـ12 ألف دينار.. مصري يشري جواز سفر ليبي ويقوم بتهريب البشر من بنغازي</H4>
+				<P>أعلنت مديرية أمن بنغازي القبض على أحد مهربي البشر وبحوزته جواز سفر مصري وجواز سفر ليبي مزور قام بشرائه بمبلغ…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d8%a7%d9%84%d8%af%d8%a7%d8%ae%d9%84%d9%8a-%d8%a5%d8%af%d8%b1%d8%a7%d8%ac-%d8%a7%d9%84%d9%85%d9%86%d9%82%d9%88%d8%b4-%d8%b9%d9%84%d9%89-%d9%82%d9%88%d8%a7/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/04/img-0604888421-470x312-c.jpeg</Src>
-				<H4>الأمن الداخلي: إدراج «المنقوش» على قوائم منع السفر لحين امتثالها للتحقيق</H4>
-				<P>أعلن جهاز الأمن الداخلي في طرابلس إدراج وزيرة الخارجية الموقوفة والمحالة للتحقيق نجلاء المنقوش في قائمة الممنوعين من السفر لحين…</P>
+				<Href>https://www.eanlibya.com/%d8%a7%d9%84%d9%86%d9%8a%d8%a7%d8%a8%d8%a9-%d8%aa%d8%b3%d8%ac%d9%86-%d8%b4%d8%ae%d8%b5-%d8%a8%d8%aa%d9%87%d9%85%d8%a9-%d8%aa%d9%87%d8%b1%d9%8a%d8%a8-%d8%a3%d8%af%d9%88%d9%8a%d8%a9-%d8%ba%d9%8a%d8%b1/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/01/img-2257348346-470x312-c.jpg</Src>
+				<H4>النيابة تسجن شخص بتهمة تهريب أدوية غير صالحة للاستخدام</H4>
+				<P>أمرت النيابة العامة بمكتب النائب العام بحبس صاحب شحنة أدوية مهربة إلى البلاد تتعلق بعلاج مرضى السكر. وأوضح مكتب النائب…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d9%84%d9%8a%d9%84%d8%a9-%d8%b9%d8%b5%d9%8a%d8%a8%d8%a9-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d8%a9-%d8%a7%d8%ad%d8%aa%d8%ac%d8%a7%d8%ac%d8%a7%d8%aa-%d9%88%d8%a7%d8%b3%d8%b9%d8%a9/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-4920756393-470x312-c.jpeg</Src>
-				<H4>ليلة عصيبة على الحكومة.. احتجاجات واسعة على لقاء «المنقوش» مع نظيرها الإسرائيلي</H4>
-				<P> أضرم محتجون النيران أمام مبنى رئاسة مجلس وزراء حكومة الوحدة الوطنية في العاصمة طرابلس تنديدا بلقاء وزيرة الخارجية الموقوفة نجلاء…</P>
+				<Href>https://www.eanlibya.com/%d8%a7%d9%84%d8%b7%d8%a8-%d8%a7%d9%84%d8%b9%d8%b3%d9%83%d8%b1%d9%8a-%d9%8a%d9%88%d8%a7%d8%b5%d9%84-%d8%a5%d8%b1%d8%b3%d8%a7%d9%84-%d8%ac%d8%b1%d8%ad%d9%89-%d8%a7%d8%b4%d8%aa%d8%a8%d8%a7%d9%83%d8%a7/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-4929534603-470x312-c.jpeg</Src>
+				<H4>الطب العسكري يواصل إرسال جرحى اشتباكات طرابلس للعلاج بالخارج</H4>
+				<P>أعلن جهاز الطب العسكري نقل 5 جرحى إلى تونس لتقلي العلاج، وهم من المصابين في الاشتباكات التي جرت في العاصمة…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d9%87%d9%8a%d8%a6%d8%a9-%d9%85%d8%b4%d8%a7%d9%8a%d8%ae-%d9%88%d8%a3%d8%b9%d9%8a%d8%a7%d9%86-%d9%84%d9%8a%d8%a8%d9%8a%d8%a7-%d8%aa%d9%8f%d8%b7%d8%a7%d9%84%d8%a8-%d8%a8%d9%85%d8%ad%d8%a7%d9%83%d9%85/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-4359194143-e1693179908389-470x312-c.jpg</Src>
-				<H4>هيئة مشايخ وأعيان ليبيا تُطالب بمحاكمة «المنقوش»</H4>
-				<P>استنكرت الهيئة الوطنية لمشايخ وأعيان ليبيا، لقاء وزيرة الخارجية بحكومة الوحدة الوطنية نجلاء المنقوش مع وزير الخارجية الإسرائيلي إيلي كوهين…</P>
+				<Href>https://www.eanlibya.com/%d9%84%d8%ac%d9%86%d8%a9-%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%84%d9%88%d9%82%d9%88%d8%af-%d8%a8%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%af%d8%a7%d8%ae%d9%84%d9%8a%d8%a9-%d8%aa%d8%a8%d8%ad%d8%ab/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-0236096098-470x312-c.jpeg</Src>
+				<H4>لجنة أزمة الوقود بوزارة الداخلية تبحث دور لجان التفتيش على محطّات التوزيع</H4>
+				<P>بحثت لجنة إدارة أزمة الوقود والغاز بوزارة الداخلية في حكومة الوحدة الوطنية تفعيل دور لجان التفتيش على المحطات. جاء ذلك…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a9-%d9%8a%d9%8f%d8%af%d9%8a%d9%86-%d9%84%d9%82%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d9%86%d9%82%d9%88%d8%b4-%d8%a8%d9%88%d8%b2%d9%8a/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-1018591775-e1693177849790-470x312-c.jpg</Src>
-				<H4>مجلس الدولة يُدين لقاء «المنقوش» بوزير إسرائيلي</H4>
-				<P>أبدى المجلس الأعلى للدولىة، استغرابه من لقاء وزيرة الخراجية بحكومة الوحدة الوطنية نجلاء المنقوش مع وزير خارجية حكومة الكيان الصهيوني،…</P>
+				<Href>https://www.eanlibya.com/%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%af%d8%a7%d8%ae%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d9%82%d8%a8%d8%b6-%d8%b9%d9%84%d9%89-%d8%b7%d8%a8%d9%8a%d8%a8%d8%a7%d9%86-%d8%b3%d8%b1%d9%82%d8%a7-%d8%b3/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-5551659753-470x312-c.jpeg</Src>
+				<H4>وزارة الداخلية: القبض على طبيبان سرقا سيّارتان من وزارة الزراعة عام 2020</H4>
+				<P>أعلنت وزارة الداخلية في حكومة الوحدة الوطنية ضبط مركبتين آليتين مسروقتين من وزارة الزراعة منذ العام 2020. وقالت الوزارة، إنّ…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d8%a7%d9%84%d8%b1%d8%a6%d8%a7%d8%b3%d9%8a-%d9%8a%d8%b7%d9%84%d8%a8-%d8%aa%d9%88%d8%b6%d9%8a%d8%ad%d8%a7%d9%8b-%d9%85%d9%86-%d8%a7%d9%84%d8%af%d8%a8%d9%8a%d8%a8%d8%a9-%d8%a8%d8%b4%d8%a3/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-1821844752-470x312-c.jpg</Src>
-				<H4>الرئاسي يطلب توضيحاً من «الدبيبة» بشأن لقاء روما</H4>
-				<P>طلب المجلس الرئاسي من رئيس حكومة الوحدة الوطنية عبدالحميد الدبيبة، موافاته بتوضيح بشأن لقاء وزيرة الخارجية نجلاء المنقوش مع وزير…</P>
+				<Href>https://www.eanlibya.com/%d8%aa%d9%83%d8%a7%d9%84%d8%a9-%d9%8a%d9%8f%d8%ac%d8%b1%d9%8a-%d9%85%d8%a8%d8%a7%d8%ad%d8%ab%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a3%d9%86%d9%82%d8%b1%d8%a9/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-4020604301-470x312-c.jpg</Src>
+				<H4>«تكالة» يُجري مباحثات في أنقرة</H4>
+				<P>شرع رئيس المجلس الأعلى للدولة محمد تكالة، اليوم الأربعاء، في زيارة رسمية إلى تركيا تلبية لدعوة رسمية من الجانب التركي….</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d8%a3%d9%87%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%b2%d8%a7%d9%88%d9%8a%d8%a9-%d9%8a%d9%8f%d8%b7%d8%a7%d9%84%d8%a8%d9%88%d9%86-%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d9%82%d8%b6%d8%a7%d8%a1-%d8%a8%d8%a7/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-0615834696-e1693170582871-470x312-c.jpg</Src>
-				<H4>أهالي الزاوية يُطالبون مجلس القضاء بإسقاط حكومة «الدبيبة»</H4>
-				<P>طالب أهالي وأعيان مدينة الزاوية، المجلس الأعلى للقضاء بالتدخل وإسقاط حكومة الوحدة الوطنية. جاء ذلك في بيان عقب مظاهرات شهدتها…</P>
+				<Href>https://www.eanlibya.com/%d9%85%d8%aa%d8%b1%d8%b4%d8%ad%d9%88%d9%86-%d9%84%d9%84%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%a6%d8%a7%d8%b3%d9%8a%d8%a9-%d9%8a%d9%8f%d8%b7%d8%a7%d9%84%d8%a8%d9%88/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-5555303590-470x312-c.jpg</Src>
+				<H4>مترشحون للانتخابات الرئاسية يُطالبون بتعديل المادة 88</H4>
+				<P>طالب مترشحون للانتخابات الرئاسية الليبية، بتعديل المادة 88 من قانون الانتخابات التي وضعتها اللجنة المشكَّلة من مجلس النواب والمجلس الأعلى…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a-%d8%a7%d9%84%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a-%d9%84%d8%ad%d9%82%d9%88%d9%82-%d8%a7%d9%84%d8%a5%d9%86%d8%b3%d8%a7%d9%86-%d9%8a%d9%8f%d8%b4%d8%a7%d8%b1%d9%83-2/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-3948336465-470x312-c.jpg</Src>
-				<H4>العربي الأوروبي لحقوق الإنسان يُشارك في ندوة حول الهجرة</H4>
-				<P>نظم المركز القومي للبحوث والدراسات العلمية صباح اليوم الأحد، بالعاصمة طرابلس، ندوة أمنية تحت شعار “معا من أجل سيادة ليبيا…</P>
+				<Href>https://www.eanlibya.com/%d9%85%d9%81%d9%88%d8%b6%d9%8a%d8%a9-%d8%a7%d9%84%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d8%aa%d9%8f%d9%86%d8%a7%d9%82%d8%b4-%d9%84%d8%a7%d8%a6%d8%ad%d8%a9-%d8%a7%d9%86%d8%aa%d8%ae%d8%a7-2/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-3802789937-e1693427958458-470x312-c.jpg</Src>
+				<H4>مفوضية الانتخابات تُناقش لائحة انتخاب المجالس البلدية</H4>
+				<P>يواصل مجلس المفوضية الوطنية العليا للانتخابات عقد اجتماعاته مع الإدارات الفنية بالمفوضية، في إطار الاستعدادات لتنفيذ انتخابات المجالس البلدية المقررة…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.eanlibya.com/%d8%a7%d9%84%d9%85%d9%86%d9%82%d9%88%d8%b4-%d8%aa%d9%84%d8%aa%d9%82%d9%8a-%d9%88%d8%b2%d9%8a%d8%b1-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a5%d8%b3%d8%b1%d8%a7/</Href>
-				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-2052896869-470x312-c.jpg</Src>
-				<H4>«المنقوش» تلتقي وزير الخارجية الإسرائيلي في إيطاليا</H4>
-				<P>أفاد بيان صادر عن وزارة الخارجية الإسرائيلية، اليوم الأحد، بأن وزير الخارجية الإسرائيلي إيلي كوهين، عقد اجتماعا مع وزيرة الخارجية…</P>
+				<Href>https://www.eanlibya.com/%d8%af%d8%b9%d9%85-%d9%84%d8%ac%d9%86%d8%a9-66-%d9%85%d8%ad%d9%88%d8%b1-%d9%84%d9%82%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d9%86%d9%81%d9%8a-%d8%a8%d8%a7%d9%84%d9%85%d8%a8%d8%b9%d9%88%d8%ab/</Href>
+				<Src>https://www.eanlibya.com/wp-content/cache/thumbnails/2023/08/img-5148610123-470x312-c.jpg</Src>
+				<H4>دعم لجنة 6+6.. محور لقاء «المنفي» بالمبعوث الأممي</H4>
+				<P>أكد رئيس المجلس الرئاسي محمد المنفي، حرصه التام على إنهاء كافة المراحل الانتقالية، ودعم عمل لجنة 6+6 والبناء عليها عبر…</P>
 				<dir>rtl</dir>
 				<Website>عين ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column pjct-mgt</Class>
+				<Href>https://www.apm.org.uk/blog/failure-happens-to-all-of-us-here-s-how-you-can-learn-from-it/</Href>
+				<Src>https://www.apm.org.uk/v2/media/zxllweub/gettyimages-1357880802.jpg</Src>
+				<H4>Failure happens to all of us. Here’s how you can learn from it </H4>
+				<P>Project failure is not an easy subject to think about, but the more we face up to it, the better prepared we will be to succeed.</P>
+				<dir>ltr</dir>
+				<Website>APM Blogs</Website>
+			</Card>
+			<Card>
+				<Class>column pjct-mgt</Class>
+				<Href>https://www.apm.org.uk/blog/difficult-conversations/</Href>
+				<Src>https://www.apm.org.uk/v2/media/iuclwkun/gettyimages-1044232206.jpg</Src>
+				<H4>Difficult conversations </H4>
+				<P>When I ask a room full of project managers how many have sufficient time and resources for the scope they are being asked to deliver, I’m greeted by a stony silence.</P>
+				<dir>ltr</dir>
+				<Website>APM Blogs</Website>
 			</Card>
 			<Card>
 				<Class>column pjct-mgt</Class>
@@ -336,22 +372,40 @@
 				<Website>APM Blogs</Website>
 			</Card>
 			<Card>
-				<Class>column pjct-mgt</Class>
-				<Href>https://www.apm.org.uk/blog/what-s-the-point-planning-with-intent/</Href>
-				<Src>https://www.apm.org.uk/v2/media/1jnhj4vs/gettyimages-136591999.jpg</Src>
-				<H4>What’s the Point? Planning with Intent </H4>
-				<P>Big brands and inventors have long been aware of the danger of creating products that customers simply don’t understand.</P>
-				<dir>ltr</dir>
-				<Website>APM Blogs</Website>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/10170/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/09/631d061a-8eef-4635-84e5-720bbc367cde-780x470.jpeg</Src>
+				<H4>الحويج : انعقاد القمة العربية التنموية يشكل ضرورة لتحقيق التكامل الاقتصادي العربي في ظل تنامي الازمات العالمية</H4>
+				<P>  القاهرة – ليبيا اليوم – عز العرب أبو القاسم وهالة شيحة  أكد وزير الاقتصاد والتجارة  محمد علي الحويج اهمية… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
 			</Card>
 			<Card>
-				<Class>column pjct-mgt</Class>
-				<Href>https://www.apm.org.uk/blog/the-link-between-personal-autonomy-and-project-performance/</Href>
-				<Src>https://www.apm.org.uk/v2/media/egrlhi4o/gettyimages-1346975137.jpg</Src>
-				<H4>The link between personal autonomy and project performance </H4>
-				<P>I once attended a conference called People Deliver Projects.</P>
-				<dir>ltr</dir>
-				<Website>APM Blogs</Website>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/10168/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/05/IMG_5948.jpeg</Src>
+				<H4>الدبيبة يحذر وزراء ومسؤولي حكومته من الخروج على وسائل الإعلام دون تنسيق</H4>
+				<P>  ليبيا اليوم طلب رئيس حكومة الوحدة الوطنية الموقتة عبدالحميد الدبيبة من الوزراء والمسؤولين في الحكومة الالتزم بالتنسيق مع مجلس… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/10153/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/08/631d061a-8eef-4635-84e5-720bbc367cde-780x470.jpeg</Src>
+				<H4>الحويج يشارك في اجتماعات المجلس الاقتصادي والاجتماعي العربي ويأمل انجاح قمة موريتانيا التنموية</H4>
+				<P>  القاهرة – ليبيا اليوم- عز العرب أبو القاسم وهالة شيحة شارك السيد محمد على الحويج وزير الاقتصاد والتجارة   في… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://libyaalyoum.com/10141/</Href>
+				<Src>https://libyaalyoum.com/wp-content/uploads/2023/08/0b7be737-2666-41fc-8853-f701997cf32c-780x470.jpeg</Src>
+				<H4>المنفي يلتقي رئيس بعثة الأمم المتحدة للدعم في ليبيا</H4>
+				<P>  ليبيا اليوم استقبل  رئيس المجلس الرئاسي، محمد المنفي، اليوم الأربعاء، الممثل الخاص للأمين العام ورئيس بعثة الأمم المتحدة للدعم… </P>
+				<dir>rtl</dir>
+				<Website>ليبيا اليوم</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
@@ -409,228 +463,246 @@
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://libyaalyoum.com/10008/</Href>
-				<Src>https://libyaalyoum.com/wp-content/uploads/2023/08/IMG_8546.jpeg</Src>
-				<H4>مصر ترحب بالبيان الليبي المشترك الذي تم توقيعه في بنغازي</H4>
-				<P>  ليبيا اليوم رحبت  مصر  في بيان صادر عن وزارة الخارجية اليوم الأحد، بالبيان المشترك الصادر في مدينة بنغازي يوم… </P>
-				<dir>rtl</dir>
-				<Website>ليبيا اليوم</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://libyaalyoum.com/9976/</Href>
-				<Src>https://libyaalyoum.com/wp-content/uploads/2023/08/IMG_8328.jpeg</Src>
-				<H4>الجامعة العربية تعرب عن القلق ازاء اشتباكات طرابلس وتدعو للوقف الفوري لاعمال العنف واتمام العملية الانتقالية</H4>
-				<P>  هالة شيحة أعربت جامعة الدول العربية عن بالغ قلقها ازاء الاشتباكات المسلحة التي شهدتها العاصمة الليبية طرابلس أمس ،… </P>
-				<dir>rtl</dir>
-				<Website>ليبيا اليوم</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://libyaalyoum.com/9969/</Href>
-				<Src>https://libyaalyoum.com/wp-content/uploads/2023/03/2BD51516-F8D6-4D61-8899-E93D640A6E0B.jpeg</Src>
-				<H4>بعثة الأمم المتحدة للدعم في ليبيا تدعو لوقف الاشتباكات المسلحة في طرابلس</H4>
-				<P>ليبيا اليوم اعلنت الأمم المتحدة للدعم في ليبيا انها تتابع بقلق بالغ الأحداث والتطورات الأمنية التي تشهدها طرابلس منذ يوم… </P>
-				<dir>rtl</dir>
-				<Website>ليبيا اليوم</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://libyaalyoum.com/9961/</Href>
-				<Src>https://libyaalyoum.com/wp-content/uploads/2023/07/IMG_8296.jpeg</Src>
-				<H4>انقلاب النيجر. يهدد بتوقف 3 مشاريع كبرى مع ليبيا</H4>
-				<P>ليبيا اليوم تداعيات خطيرة تفرضها الاحداث المتسارعة في النيجر فبعيداً عن التداعيات الأمنية للانقلاب العسكري في النيجر على دول جوارها،… </P>
-				<dir>rtl</dir>
-				<Website>ليبيا اليوم</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220834.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/828291-1324586248-145x100.jpg</Src>
-				<H4>أنباء عن مغادرة وزيرة خارجية ليبيا البلاد بسبب "مخاوف تتعلق بالسلامة"</H4>
-				<P>أنباء عن مغادرة وزيرة خارجية ليبيا البلاد بسبب "مخاوف تتعلق بالسلامة"</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223108.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/اسعار-الاسمنت-فى-ليبيا-اليوم-145x100.jpg</Src>
+				<H4>انخفاض فـي اسعار الاسمنت بعـدد من الشركات بالسوق المحلي في ليبيا اليوم</H4>
+				<P>انخفاض فـي اسعار الاسمنت بعـدد من الشركات بالسوق المحلي في ليبيا اليوم</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220828.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-28-at-2.46.41-PM-145x100.jpeg</Src>
-				<H4>اتحاد ثوار مصراتة يصدر بيانًا يندد بالتطبيع مع إسرائيل ويطالب بتشكيل حكومة تسييرية</H4>
-				<P>اتحاد ثوار مصراتة يصدر بيانًا يندد بالتطبيع مع إسرائيل ويطالب بتشكيل حكومة تسييرية</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223104.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/03/اللحوم-الدواجن-البيض-145x100.jpg</Src>
+				<H4>تغيير جماعي فـي اسعار اللحوم و الدجاج المحلي في أسواق ليبيا اليوم</H4>
+				<P>تغيير جماعي فـي اسعار اللحوم و الدجاج المحلي في أسواق ليبيا اليوم</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220823.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/PSDالعنوان-17-145x100.jpg</Src>
-				<H4>لجنة شؤون المرأة: ماقامت به المنقوش لا يمثل الثوابت الوطنية والقومية للمرأة الليبية تجاه القضية الفلسطينية</H4>
-				<P>لجنة شؤون المرأة: ماقامت به المنقوش لا يمثل الثوابت الوطنية والقومية للمرأة الليبية تجاه القضية الفلسطينية</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223102.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/06/هانيبال-القذافي-في-2011-145x100.jpeg</Src>
+				<H4>رئيس البرلمان اللبناني يهاجم السلطات الليبية والقذافي</H4>
+				<P>رئيس البرلمان اللبناني يهاجم السلطات الليبية والقذافي</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220820.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/PSDالعنوان-18-145x100.jpg</Src>
-				<H4>حزب الكرامة: لقاء المنقوش وكوهين انتهاكاً صارخاً بمبادئ وثوابت الشعب الليبي والأمة العربية</H4>
-				<P>حزب الكرامة: لقاء المنقوش وكوهين انتهاكاً صارخاً بمبادئ وثوابت الشعب الليبي والأمة العربية</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223099.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/20230901-142918news-template_-_2023-09-01t162633.152-145x100.jpg</Src>
+				<H4>أوباري: سقوط أبراج كهرباء – بوابة أفريقيا الإخبارية</H4>
+				<P>أوباري: سقوط أبراج كهرباء – بوابة أفريقيا الإخبارية</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220818.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/369643921_675203554638905_1618249035199337423_n-145x100.jpg</Src>
-				<H4>وزير الشؤون الاجتماعية تدلي بتصريحات جديدة بشأن منحة الزوجة والابناء والبنات</H4>
-				<P>وزير الشؤون الاجتماعية تدلي بتصريحات جديدة بشأن منحة الزوجة والابناء والبنات</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223097.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2022/06/286847937_547094843561223_4142223566926388198_n-1024x538-145x100.jpg</Src>
+				<H4>الجديد: الليبيون لم يطالبوا بإسقاط الدبيبة كي لا يخسروا المرتبات والكهرباء</H4>
+				<P>الجديد: الليبيون لم يطالبوا بإسقاط الدبيبة كي لا يخسروا المرتبات والكهرباء</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220816.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/مصرف-الجمهورية-gigapixel-scale-2_00x-145x100.jpg</Src>
-				<H4>مصرف الجمهورية يصدر تنويهًا جديدًا لعملائه</H4>
-				<P>مصرف الجمهورية يصدر تنويهًا جديدًا لعملائه</P>
-				<dir>rtl</dir>
-				<Website>اخبار ليبيا</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220814.html</Href>
+				<Href>https://www.libyaakhbar.com/libya-news/2223094.html</Href>
 				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/عملة-145x100.jpg</Src>
-				<H4>آخر المستجدات عن عودة منظومة الإفراجات المالية للعمل</H4>
-				<P>آخر المستجدات عن عودة منظومة الإفراجات المالية للعمل</P>
+				<H4>مصلحة التسجيل العقاري توضح بشأن الإفراجات المالية عن مرتبات الموظفين ـ الاسماء</H4>
+				<P>مصلحة التسجيل العقاري توضح بشأن الإفراجات المالية عن مرتبات الموظفين ـ الاسماء</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220810.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/PSDالعنوان-12-145x100.jpg</Src>
-				<H4>الأعلى لقبائل الأشراف والمرابطين يحمل الدبيبة مسؤولية التطبيع مع الاحتلال الإسرائيلي</H4>
-				<P>الأعلى لقبائل الأشراف والمرابطين يحمل الدبيبة مسؤولية التطبيع مع الاحتلال الإسرائيلي</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223091.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/ذهب--145x100.jpg</Src>
+				<H4>كيتكو: ليبيا اشترت 30 طنا من الذهب في يونيو الفائت</H4>
+				<P>كيتكو: ليبيا اشترت 30 طنا من الذهب في يونيو الفائت</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220807.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/245ab43f-7f8b-4ed2-8385-5373a1b8e41f-145x100.jpg</Src>
-				<H4>حكماء بني وليد: لقاء “المنقوش” بالوزير الإسرائيلي سقوط في مستنقع التطبيع</H4>
-				<P>حكماء بني وليد: لقاء “المنقوش” بالوزير الإسرائيلي سقوط في مستنقع التطبيع</P>
+				<Href>https://www.libyaakhbar.com/breaking/2223089.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/01/libya-now-145x100.jpg</Src>
+				<H4>مركز طب الطوارئ والدعم فرع طرابلس يرفع حالة التأهب القصوى</H4>
+				<P>مركز طب الطوارئ والدعم فرع طرابلس يرفع حالة التأهب القصوى</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220805.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/هان-145x100.jpg</Src>
-				<H4>وزيرة العدل تطالب لبنان بإطلاق سراح هانيبال القذافي</H4>
-				<P>وزيرة العدل تطالب لبنان بإطلاق سراح هانيبال القذافي</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223078.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/20230901-133706news-template_-_2023-09-01t153600.497-145x100.jpg</Src>
+				<H4>طرابلس: انتشار أمني كثيف لمنع خروج المتظاهرين رفضا للتطبيع مع إسرائيل</H4>
+				<P>طرابلس: انتشار أمني كثيف لمنع خروج المتظاهرين رفضا للتطبيع مع إسرائيل</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220802.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/63f011a9-125f-4c7b-b9fe-8c02b44e95c5-145x100.jpg</Src>
-				<H4>«تكالة» يلتقي ممثلين عن حراك العدالة الانتقالية</H4>
-				<P>«تكالة» يلتقي ممثلين عن حراك العدالة الانتقالية</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223075.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/IMG_20230901_153831_348-145x100.jpg</Src>
+				<H4>المرغني: اقترح إصدار تشريع قانوني يمنع التواصل مع الكيان الصهيوني</H4>
+				<P>المرغني: اقترح إصدار تشريع قانوني يمنع التواصل مع الكيان الصهيوني</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220799.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/370621402_607399784917017_3512581761197222400_n-145x100.jpg</Src>
-				<H4>طرابلس.. ضبط سيارة كيا مسروقة منذ 5 سنوات بجزيرة المدار</H4>
-				<P>طرابلس.. ضبط سيارة كيا مسروقة منذ 5 سنوات بجزيرة المدار</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223069.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/34a759c7-fd5e-4d05-afae-aa3a2dce886e-145x100.jpeg</Src>
+				<H4>“الحويج” يبحث المشكلات التي تواجه وزارة الخارجية</H4>
+				<P>“الحويج” يبحث المشكلات التي تواجه وزارة الخارجية</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220795.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/369647948_661102856079945_6297198002496047900_n-145x100.jpg</Src>
-				<H4>بالتزامن مع احتجاجات أمام رئاسة الوزراء.. الصحفي المصراتي يكشف منع طائرة لعائلة الدبيبة من الهبوط في مصراتة</H4>
-				<P>بالتزامن مع احتجاجات أمام رئاسة الوزراء.. الصحفي المصراتي يكشف منع طائرة لعائلة الدبيبة من الهبوط في مصراتة</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223066.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/da30968d-d95a-4444-bfed-e672126eee36-145x100.jpg</Src>
+				<H4>وزارة الصحة الليبية: تجهيز مركز سبها الطبي بأكبر حضانات بالمنطقة الجنوبية</H4>
+				<P>وزارة الصحة الليبية: تجهيز مركز سبها الطبي بأكبر حضانات بالمنطقة الجنوبية</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220792.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/20230828-230438jpg-145x100.</Src>
-				<H4>حكماء بني وليد يطالبون بمحاسبة المسؤولين عن لقاء المنقوش ووزير خارجية إسرائيل</H4>
-				<P>حكماء بني وليد يطالبون بمحاسبة المسؤولين عن لقاء المنقوش ووزير خارجية إسرائيل</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223063.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/Libya-Voting-145x100.jpg</Src>
+				<H4>قوانين الانتخابات.. 6+6 تصل إلى نسخة نهائية</H4>
+				<P>قوانين الانتخابات.. 6+6 تصل إلى نسخة نهائية</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220789.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/899333c6-3219-4ed1-9c07-2b452078be24-145x100.jpg</Src>
-				<H4>بعيو: فضيحة اللقاء مع الصهاينة أفسدت كل مخططات علي الدبيبة</H4>
-				<P>بعيو: فضيحة اللقاء مع الصهاينة أفسدت كل مخططات علي الدبيبة</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223060.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/النفايات-الالكترونية-145x100.jpg</Src>
+				<H4>بالس: ليبيا في صدارة الدول الإفريقية بأكبر عدد للنفايات الإلكترونية</H4>
+				<P>بالس: ليبيا في صدارة الدول الإفريقية بأكبر عدد للنفايات الإلكترونية</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220783.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-28-at-2.04.50-PM-145x100.jpeg</Src>
-				<H4>اتحاد ثوار الزنتان يطالب بحل حكومة “الدبيبة” وتحويل أعضائها للتحقيق</H4>
-				<P>اتحاد ثوار الزنتان يطالب بحل حكومة “الدبيبة” وتحويل أعضائها للتحقيق</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223051.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/C1B04A3F-BA52-4D06-B70D-70566688EBCB-145x100.jpeg</Src>
+				<H4>“الزرقاء” رد الشارع الليبي الرافض لتطبيع الدبيبة أسرع من الاتهامات التي طالت مجلس النواب</H4>
+				<P>“الزرقاء” رد الشارع الليبي الرافض لتطبيع الدبيبة أسرع من الاتهامات التي طالت مجلس النواب</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220780.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-28-at-11.56.11-PM-145x100.jpeg</Src>
-				<H4>بسبب لقاء الوزير الإسرائيلي.. أين تركزت المظاهرات المطالبة بإسقاط حكومة دبيبة؟</H4>
-				<P>بسبب لقاء الوزير الإسرائيلي.. أين تركزت المظاهرات المطالبة بإسقاط حكومة دبيبة؟</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223048.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/السمنة-145x100.jpg</Src>
+				<H4>وورلد أتلاس: ليبيا من بين دول تعاني من السمنة على مستوى البالغين</H4>
+				<P>وورلد أتلاس: ليبيا من بين دول تعاني من السمنة على مستوى البالغين</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220773.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/العنوان-الاخير-2023-08-27T191712.785-145x100.jpg</Src>
-				<H4>تجمع شباب ليبيا: التطبيع مع العدو الصهيوني يعد استهتارًا لا يمكن أن يمر دون عقاب</H4>
-				<P>تجمع شباب ليبيا: التطبيع مع العدو الصهيوني يعد استهتارًا لا يمكن أن يمر دون عقاب</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223043.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2022/01/علي-أوحيدة-1024x538-145x100.jpg</Src>
+				<H4>أوحيدة: احتماء السياسيين في ليبيا بالخارج لن ينفعهم </H4>
+				<P>أوحيدة: احتماء السياسيين في ليبيا بالخارج لن ينفعهم </P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220770.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/370256843_842755953875675_774491019132254535_n-145x100.jpg</Src>
-				<H4>تفاصيل ضبط دكتور جامعي يدرس بشهادات مزورة في الجامعات الليبية</H4>
-				<P>تفاصيل ضبط دكتور جامعي يدرس بشهادات مزورة في الجامعات الليبية</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223037.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/259CB130-F8B8-499A-8DD6-218F312F168C-145x100.jpeg</Src>
+				<H4>عقيل: المنقوش ستعود بصيغة أو بأخرى وقد تصبح مايسترو حكومة الدبيبة</H4>
+				<P>عقيل: المنقوش ستعود بصيغة أو بأخرى وقد تصبح مايسترو حكومة الدبيبة</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220767.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/372023734_681394687359273_7403804205478760487_n-145x100.jpg</Src>
-				<H4>القبض على شخص من ذوي السوابق ومطلوب على ذمة اربع محاضر</H4>
-				<P>القبض على شخص من ذوي السوابق ومطلوب على ذمة اربع محاضر</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223035.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/02/a4fb5b9c-58d3-49cf-9ee9-8f84d8687f41-145x100.jpg</Src>
+				<H4>تعرف على موعد أولى رحلات الخطوط الليبية إلى المدينة المنورة</H4>
+				<P>تعرف على موعد أولى رحلات الخطوط الليبية إلى المدينة المنورة</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2220761.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/222222222222-145x100.jpg</Src>
-				<H4>بعد لقاء المنقوش ونظيرها الإسرائيلي.. «النواب»: قرار إقالة حكومة الدبيبة كان صائباً</H4>
-				<P>بعد لقاء المنقوش ونظيرها الإسرائيلي.. «النواب»: قرار إقالة حكومة الدبيبة كان صائباً</P>
+				<Href>https://www.libyaakhbar.com/libya-news/2223033.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/03/لنقي-145x100.jpg</Src>
+				<H4>لنقي: الشعب الليبي لن يسمح بعودة حكم القذافي وجماهيريته</H4>
+				<P>لنقي: الشعب الليبي لن يسمح بعودة حكم القذافي وجماهيريته</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2223027.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/PSDالعنوان-12-145x100.jpg</Src>
+				<H4>تحشيد أمني بوسط طرابلس لمنع التظاهر ضد إسقاط حكومة الوحدة</H4>
+				<P>تحشيد أمني بوسط طرابلس لمنع التظاهر ضد إسقاط حكومة الوحدة</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column mena-news</Class>
+				<Href>https://www.bbc.com/arabic/live/66668923</Href>
+				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17100/production/_130946449_gettyimages-1636045151.jpg</Src>
+				<H4>مقتل جندي إسرائيلي متأثرا بجراحه وإصابة عدد آخر من أفراد الجيش في هجومين منفصلين في الضفة الغربية المحتلة</H4>
+				<P>مقتل جندي إسرائيلي متأثرا بجراحه وإصابة عدد آخر من أفراد الجيش في هجومين منفصلين في الضفة الغربية المحتلة</P>
+				<dir>rtl</dir>
+				<Website>BBC News عربي</Website>
+			</Card>
+			<Card>
+				<Class>column mena-news</Class>
+				<Href>https://www.bbc.com/arabic/middleeast-65449088</Href>
+				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70ED/production/_130490982_untitled.png</Src>
+				<H4>للسودان سلام: برنامج يومي يناقش الأزمة الإنسانية في السودان</H4>
+				<P>للسودان سلام: برنامج يومي يناقش الأزمة الإنسانية في السودان</P>
+				<dir>rtl</dir>
+				<Website>BBC News عربي</Website>
+			</Card>
+			<Card>
+				<Class>column mena-news</Class>
+				<Href>https://www.bbc.com/arabic/articles/cml80mwl88wo</Href>
+				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d10/live/3addc9c0-4730-11ee-9b58-cb80889117a8.jpg</Src>
+				<H4>فيديو, الاختفاء القسري: ما الذي تشعر به ابنة أحد المختفين في سوريا؟المدة, 3,16</H4>
+				<P>فيديو, الاختفاء القسري: ما الذي تشعر به ابنة أحد المختفين في سوريا؟المدة, 3,16</P>
+				<dir>rtl</dir>
+				<Website>BBC News عربي</Website>
+			</Card>
+			<Card>
+				<Class>column mena-news</Class>
+				<Href>https://www.bbc.com/arabic/media-66525208</Href>
+				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35D5/production/_130818731_p0g70zn5.jpg</Src>
+				<H4>فيديو, هل أصبح لبنان دولة نفطية؟المدة, 3,25</H4>
+				<P>فيديو, هل أصبح لبنان دولة نفطية؟المدة, 3,25</P>
+				<dir>rtl</dir>
+				<Website>BBC News عربي</Website>
+			</Card>
+			<Card>
+				<Class>column mena-news</Class>
+				<Href>https://www.bbc.com/arabic/live/66656095</Href>
+				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33C5/production/_130935231_gettyimages-1600919620.jpg</Src>
+				<H4>أكبر وأعنف هجوم على كييف يتزامن مع أوسع هجوم بالمسيرات على روسيا، والغابون تغلق حدودها بعد انقلاب عسكري</H4>
+				<P>أكبر وأعنف هجوم على كييف يتزامن مع أوسع هجوم بالمسيرات على روسيا، والغابون تغلق حدودها بعد انقلاب عسكري</P>
+				<dir>rtl</dir>
+				<Website>BBC News عربي</Website>
+			</Card>
+			<Card>
+				<Class>column mena-news</Class>
+				<Href>https://www.bbc.com/arabic/articles/cj5d9n7d5yjo</Href>
+				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad5b/live/a8ccfbd0-4678-11ee-9b58-cb80889117a8.jpg</Src>
+				<H4>فيديو, هجرة غير شرعية: 24 ساعة على أكبر خط للمهاجرين غير النظاميين من تونس إلى أوروبا المدة, 2,37</H4>
+				<P>فيديو, هجرة غير شرعية: 24 ساعة على أكبر خط للمهاجرين غير النظاميين من تونس إلى أوروبا المدة, 2,37</P>
+				<dir>rtl</dir>
+				<Website>BBC News عربي</Website>
 			</Card>
 			<Card>
 				<Class>column mena-news</Class>
@@ -645,8 +717,8 @@
 				<Class>column mena-news</Class>
 				<Href>https://www.bbc.com/arabic/articles/cy6ldx23eepo</Href>
 				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c44d/live/3638ed60-45bd-11ee-9b58-cb80889117a8.jpg</Src>
-				<H4>فيديو, ليبيا: ما الذي يحدث بعد كشف لقاء وزيرة الخارجية نجلاء المنقوش بنظيرها الإسرائيلي؟المدة, 2,14</H4>
-				<P>فيديو, ليبيا: ما الذي يحدث بعد كشف لقاء وزيرة الخارجية نجلاء المنقوش بنظيرها الإسرائيلي؟المدة, 2,14</P>
+				<H4>فيديو, نجلاء المنقوش: ما الذي يحدث بعد كشف لقاء وزيرة الخارجية نجلاء المنقوش بنظيرها الإسرائيلي؟المدة, 2,14</H4>
+				<P>فيديو, نجلاء المنقوش: ما الذي يحدث بعد كشف لقاء وزيرة الخارجية نجلاء المنقوش بنظيرها الإسرائيلي؟المدة, 2,14</P>
 				<dir>rtl</dir>
 				<Website>BBC News عربي</Website>
 			</Card>
@@ -724,15 +796,6 @@
 			</Card>
 			<Card>
 				<Class>column mena-news</Class>
-				<Href>https://www.bbc.com/arabic/middleeast-65449088</Href>
-				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70ED/production/_130490982_untitled.png</Src>
-				<H4>للسودان سلام: برنامج يومي يناقش الأزمة الإنسانية في السودان</H4>
-				<P>للسودان سلام: برنامج يومي يناقش الأزمة الإنسانية في السودان</P>
-				<dir>rtl</dir>
-				<Website>BBC News عربي</Website>
-			</Card>
-			<Card>
-				<Class>column mena-news</Class>
 				<Href>https://www.bbc.com/arabic/articles/cpv2dlqp25wo</Href>
 				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b94/live/74eb3ba0-3d2d-11ee-bde6-7ffba94c56ae.png</Src>
 				<H4>هل تنهي عودة العلاقات بين السعودية وإيران الأزمات الراهنة؟</H4>
@@ -760,15 +823,6 @@
 			</Card>
 			<Card>
 				<Class>column mena-news</Class>
-				<Href>https://www.bbc.com/arabic/media-66525208</Href>
-				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35D5/production/_130818731_p0g70zn5.jpg</Src>
-				<H4>فيديو, هل أصبح لبنان دولة نفطية؟المدة, 3,25</H4>
-				<P>فيديو, هل أصبح لبنان دولة نفطية؟المدة, 3,25</P>
-				<dir>rtl</dir>
-				<Website>BBC News عربي</Website>
-			</Card>
-			<Card>
-				<Class>column mena-news</Class>
 				<Href>https://www.bbc.com/arabic/articles/cz7jey20639o</Href>
 				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f3c4/live/6bcec400-3b71-11ee-8aef-9567526d09ca.jpg</Src>
 				<H4>نجل نتنياهو يصف رئيس الأركان الإسرائيلي بالفاشل</H4>
@@ -786,316 +840,280 @@
 				<Website>BBC News عربي</Website>
 			</Card>
 			<Card>
-				<Class>column mena-news</Class>
-				<Href>https://www.bbc.com/arabic/art-and-culture-53783197</Href>
-				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11034/production/_113948696_gettyimages-476861734.jpg</Src>
-				<H4>في عيد انتقال العذراء: لماذا تكرّم الأديان السيدة مريم؟</H4>
-				<P>في عيد انتقال العذراء: لماذا تكرّم الأديان السيدة مريم؟</P>
-				<dir>rtl</dir>
-				<Website>BBC News عربي</Website>
-			</Card>
-			<Card>
-				<Class>column mena-news</Class>
-				<Href>https://www.bbc.com/arabic/articles/cd1e17d3dm6o</Href>
-				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/307f/live/8d7d48f0-3aaf-11ee-8c23-931f078ac055.jpg</Src>
-				<H4>جثث تنتشر في شوارع الخرطوم وتهدد بالطاعون</H4>
-				<P>جثث تنتشر في شوارع الخرطوم وتهدد بالطاعون</P>
-				<dir>rtl</dir>
-				<Website>BBC News عربي</Website>
-			</Card>
-			<Card>
-				<Class>column mena-news</Class>
-				<Href>https://www.bbc.com/arabic/articles/c3g1552d98eo</Href>
-				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f67/live/8939fda0-3975-11ee-8ca7-3fd984bb6a11.jpg</Src>
-				<H4>مؤسسة توني بلير واصلت تقديم المشورة لحكومة السعودية بعد مقتل جمال خاشقجي – التايمز</H4>
-				<P>مؤسسة توني بلير واصلت تقديم المشورة لحكومة السعودية بعد مقتل جمال خاشقجي – التايمز</P>
-				<dir>rtl</dir>
-				<Website>BBC News عربي</Website>
-			</Card>
-			<Card>
-				<Class>column mena-news</Class>
-				<Href>https://www.bbc.com/arabic/articles/c98pze8pr42o</Href>
-				<Src>https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf01/live/31732d90-38fc-11ee-bde6-7ffba94c56ae.png</Src>
-				<H4>نزْع فتيل قنبلة الناقلة "صافر" قبالة سواحل اليمن</H4>
-				<P>نزْع فتيل قنبلة الناقلة "صافر" قبالة سواحل اليمن</P>
-				<dir>rtl</dir>
-				<Website>BBC News عربي</Website>
-			</Card>
-			<Card>
 				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/8/28/%d9%85%d8%a4%d8%aa%d9%85%d8%b1-%d8%a8%d8%ba%d8%af%d8%a7%d8%af-%d8%a7%d9%84%d8%ab%d8%a7%d9%84%d8%ab-%d9%84%d9%84%d8%a7%d8%b3%d8%aa%d9%82%d8%b1%d8%a7%d8%b1</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2023/01/RTSFKBRZ.jpg</Src>
-				<H4>مؤتمر بغداد الثالث للاستقرار الإقليمي يعقد في نوفمبر</H4>
-				<P>أعلن -اليوم- كل من مكتب رئيس الوزراء العراقي والرئيس الفرنسي، موعد انعقاد النسخة الثالثة من مؤتمر بغداد للاستقرار الإقليمي -الذي تشارك باريس في تنظميه- أواخر نوفمبر/ تشرين الثاني في العاصمة العراقية.</P>
+				<Href>https://www.aljazeera.net/news/2023/9/1/%d9%88%d8%b2%d9%8a%d8%b1-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a-%d8%b9%d9%84%d8%a7%d9%82%d8%a7%d8%aa%d9%86%d8%a7-%d9%85%d8%b9</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2020/05/Al-Jazeera-Breaking-News.jpg</Src>
+				<H4>وزير الخارجية الإيراني: علاقاتنا مع لبنان إستراتيجية وندعم المقاومة للحفاظ على مصلحة لبنان في وجه الاحتلال</H4>
+				<P>وزير الخارجية الإيراني: علاقاتنا مع لبنان إستراتيجية وندعم المقاومة للحفاظ على مصلحة لبنان في وجه الاحتلال</P>
 				<dir>rtl</dir>
 				<Website>الجزيرة.نت</Website>
 			</Card>
 			<Card>
 				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/8/28/%d8%a7%d9%84%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1-%d9%85%d9%82%d8%a7%d8%aa%d9%84%d9%8a%d9%86-%d8%a8%d9%86%d9%8a%d8%a7%d9%84%d8%a7</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2023/08/23223-1693249672.jpg</Src>
-				<H4>انتشار مقاتلين في نيالا والجيش السوداني يقصف مواقع الدعم السريع بأم درمان</H4>
-				<P>نشرت حركات مسلحة مقاتلين في نيالا عاصمة جنوب دارفور، في حين قصف الجيش السوداني تمركزات قوات الدعم السريع في أم درمان حيث تحتدم المعارك بين الطرفين.</P>
+				<Href>https://www.aljazeera.net/news/2023/9/1/%d9%85%d8%b9-%d8%aa%d8%aa%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8%d8%a7%d8%aa-%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d9%81%d9%8a</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2023/08/image-461.jpg</Src>
+				<H4>مع تتالي الانقلابات.. ما خيارات فرنسا لمواجهة الغضب الأفريقي؟</H4>
+				<P>جاءت الطعنة فوق الطعنة، وتلقى العالم بعد أسابيع من انقلاب النيجر خبر انقلاب جديد في الغابون، إحدى أهم الدول الأفريقية الناطقة بالفرنسية، لتكون باريس أمام متغير جديد ينضاف إلى سلة أزماتها الأفريقية.</P>
 				<dir>rtl</dir>
 				<Website>الجزيرة.نت</Website>
 			</Card>
 			<Card>
 				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/8/28/%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d8%b1%d9%88%d8%b3%d9%8a-%d9%84%d9%86-%d9%8a%d8%b4%d8%a7%d8%b1%d9%83-%d9%81%d9%8a-%d9%82%d9%85%d8%a9-%d8%a7%d9%84%d8%b9%d8%b4%d8%b1%d9%8a%d9%86</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2023/07/11626915-1690660887.jpg</Src>
-				<H4>بوتين لن يشارك في قمة العشرين بالهند الشهر المقبل</H4>
-				<P>أفاد بيان أصدره مكتب رئيس الوزراء الهندي ناريندرا مودي، اليوم الاثنين، أن الرئيس الروسي فلاديمير بوتين لن يحضر قمة مجموعة العشرين التي تستضيفها نيودلهي الشهر المقبل.</P>
+				<Href>https://www.aljazeera.net/news/2023/9/1/%d8%a8%d9%86-%d8%ba%d9%81%d9%8a%d8%b1-%d9%8a%d9%82%d9%8a%d8%af-%d8%b2%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%a7%d8%a6%d9%84%d8%a7%d8%aa</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2023/03/4-29.jpg</Src>
+				<H4>بن غفير يقيد زيارات العائلات الفلسطينية لأبنائها الأسرى</H4>
+				<P>قرر وزير الأمن القومي الإسرائيلي إيتمار بن غفير تقليص زيارات العائلات الفلسطينية في الضفة الغربية لأبنائها في سجون الاحتلال، من مرة كل شهر إلى مرة كل شهرين.</P>
 				<dir>rtl</dir>
 				<Website>الجزيرة.نت</Website>
 			</Card>
 			<Card>
 				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/8/28/%d9%85%d9%82%d8%aa%d9%84-20-%d8%a3%d8%ba%d9%84%d8%a8%d9%87%d9%85-%d9%85%d9%87%d8%a7%d8%ac%d8%b1%d9%8a%d9%86-%d9%81%d9%8a-%d8%ad%d8%b1%d9%8a%d9%82-%d9%87%d8%a7%d8%a6%d9%84</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2021/08/003-1-1.jpg</Src>
-				<H4>حريق اليونان الهائل مازال خارج السيطرة</H4>
-				<P>أعلنت السلطات اليونانية أن فرق الإطفاء مازالت تعمل جاهدة لإخماد الحريق الهائل المستعر في شمال شرق البلاد منذ نحو 10 أيام، وتسبب في مقتل نحو 20 شخصا معظمهم مهاجرون غير نظاميين.</P>
+				<Href>https://www.aljazeera.net/news/2023/9/1/%d8%b3%d9%88%d8%b1%d9%8a%d8%a7-54</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2023/09/reuters-51-1693563836.jpg</Src>
+				<H4>هجمات ضد "سوريا الديمقراطية" بجرابلس وتواصل الاحتجاجات بالسويداء</H4>
+				<P>قالت مصادر محلية سورية إن مقاتلين تابعين للعشائر العربية شنوا هجوما من محيط مدينة جرابلس على مواقع ما تعرف بـ”قوات سوريا الديمقراطية” شمال مدينة منبج بريف حلب الشرقي.</P>
 				<dir>rtl</dir>
 				<Website>الجزيرة.نت</Website>
 			</Card>
 			<Card>
 				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/8/28/%d9%85%d8%ad%d9%83%d9%85%d8%a9-%d9%81%d9%8a-%d8%ac%d9%88%d8%b1%d8%ac%d9%8a%d8%a7-%d8%aa%d8%b3%d8%aa%d8%af%d8%b9%d9%8a-%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%84%d9%84%d9%85%d8%ab%d9%88%d9%84</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2023/08/trump-1693245497.jpg</Src>
-				<H4>محكمة بولاية جورجيا تستدعي ترامب للمثول أمامها بتهمة محاولة التلاعب بانتخابات الرئاسة</H4>
-				<P>استدعت محكمة بولاية جورجيا الأميركية الرئيس السابق دونالد ترامب للمثول أمامها الشهر المقبل، كما حددت محكمة فدرالية مارس/آذار المقبل موعدا لمحاكمته بتهمة محاولة تغيير نتائج الانتخابات الرئاسية.</P>
+				<Href>https://www.aljazeera.net/news/2023/9/1/%d8%aa%d8%a7%d9%8a%d9%88%d8%a7%d9%86-%d8%aa%d8%b9%d9%82%d8%a8%d9%86%d8%a7-%d8%b7%d8%a7%d8%a6%d8%b1%d8%a7%d8%aa-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a%d8%a9-%d9%88%d8%b3%d9%81%d9%86%d8%a7</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2023/04/GettyImages-1091868092.jpg</Src>
+				<H4>تايوان: تعقبنا طائرات عسكرية وسفنا حربية صينية</H4>
+				<P>أفادت وزارة الدفاع التايوانية بأنها تعقبت 4 طائرات عسكرية و3 سفن حربية صينية في محيط البلاد خلال الساعات الـ24 الماضية.</P>
 				<dir>rtl</dir>
 				<Website>الجزيرة.نت</Website>
 			</Card>
 			<Card>
 				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/8/28/%d8%a3%d8%b1%d8%af%d9%88%d8%ba%d8%a7%d9%86-%d9%8a%d9%84%d8%aa%d9%82%d9%8a-%d8%a8%d9%88%d8%aa%d9%8a%d9%86-%d9%82%d8%b1%d9%8a%d8%a8%d8%a7-%d9%84%d8%a8%d8%ad%d8%ab-%d8%a7%d8%aa%d9%81%d8%a7%d9%82</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2019/01/683b4da9-8294-4d3c-9d2f-98199cef0a37.jpeg</Src>
-				<H4>أردوغان يلتقي بوتين قريبا لبحث اتفاقية الحبوب</H4>
-				<P>من المتوقع قريبا أن يلتقي الرئيس التركي نظيره الروسي، في منتجع سوتشي على البحر الأسود، لبحث اتفاق الحبوب، في الوقت الذي عارضت فيه أوكرانيا تمديد القيود الأوروبية على صادراتها من الحبوب لدول الجوار.</P>
+				<Href>https://www.aljazeera.net/politics/2023/9/1/%d8%b3%d9%86%d8%ba%d8%a7%d9%81%d9%88%d8%b1%d8%a9-%d8%ad%d9%84%d9%8a%d9%85%d8%a9-%d8%aa%d8%ba%d8%a7%d8%af%d8%b1-%d8%a3%d8%b3%d8%aa%d8%a7%d9%86%d8%a7-%d9%81%d9%85%d9%86-2</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2023/09/32045372-1-1693556630.jpg</Src>
+				<H4>رئاسة سنغافورة.. ثارمان الأوفر حظا لخلافة حليمة</H4>
+				<P>يعد وزير المالية السنغافوري السابق ثارمان شانموغاراتنام، أوفر المرشحين حظا للفوز بمنصب رئيس سنغافورة في الانتخابات الرئاسية التي تجري اليوم لاختيار خلف للرئيسة حليمة يعقوب أول رئيسة مسلمة للبلاد.</P>
 				<dir>rtl</dir>
 				<Website>الجزيرة.نت</Website>
 			</Card>
 			<Card>
 				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/8/28/%d8%a7%d9%84%d8%b9%d8%b1%d8%a7%d9%82-%d9%8a%d9%82%d9%88%d9%84-%d8%a5%d9%86%d9%87-%d8%b3%d9%8a%d9%85%d9%86%d8%b9-%d8%aa%d9%88%d8%a7%d8%ac%d8%af-%d8%a3%d9%8a-%d8%ac%d9%85%d8%a7%d8%b9%d8%a7%d8%aa</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2023/08/12-1692259329.jpeg</Src>
-				<H4>العراق يكشف تفاصيل الاتفاق الأمني مع إيران بشأن جماعات مسلحة بكردستان</H4>
-				<P>كشف هشام الركابي مستشار رئيس الوزراء العراقي تفاصيل الاتفاق الأمني مع إيران بشأن الجماعات المسلحة بإقليم كردستان، ينص على منع تسلل المسلحين وتسليم المطلوبين بالإضافة إلى نزع السلاح وإزالة المعسكرات.</P>
+				<Href>https://www.aljazeera.net/news/2023/9/1/%d9%85%d9%86%d8%b9-%d8%a7%d9%84%d9%83%d8%ad%d9%88%d9%84-%d9%81%d9%8a-%d8%a7%d9%84%d8%a3%d9%85%d8%a7%d9%83%d9%86-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9-%d9%81%d9%8a</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2023/09/SS232155415-1693557087.jpg</Src>
+				<H4>منع الكحول في الأماكن العامة بإسطنبول.. المعارضة تنتقد والوالي يرد</H4>
+				<P>تشهد مدينة إسطنبول جدلا ساخنا سياسيا وإعلاميا، بعدما تداولت وسائل إعلام تركية محلية تعميما لوالي المدينة يؤكد فيه حظر بيع وتناول المشروبات الكحولية في الأماكن العامة مثل الشواطئ.</P>
 				<dir>rtl</dir>
 				<Website>الجزيرة.نت</Website>
 			</Card>
 			<Card>
 				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/8/28/%d8%b9%d8%a7%d8%ac%d9%84-%d9%88%d8%b3%d8%a7%d8%a6%d9%84-%d8%a5%d8%b9%d9%84%d8%a7%d9%85-%d8%a3%d9%85%d9%8a%d8%b1%d9%83%d9%8a%d8%a9-%d8%a5%d8%b5%d8%a7%d8%a8%d8%a7%d8%aa</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2023/08/004-1693250548.jpg</Src>
-				<H4>الشرطة الأميركية تطوق جامعة نورث كارولاينا وتواجه مسلحا خطيرا</H4>
-				<P>طوقت الشرطة الأميركية جامعة تشابل هيل بولاية نورث كارولاينا الأميركية -اليوم الاثنين-، وأصدرت إنذارا للتحذير من وجود “شخص مسلح وخطير في الحرم الجامعي أو بالقرب منه”.</P>
+				<Href>https://www.aljazeera.net/politics/2023/9/1/%d8%b5%d8%ad%d9%8a%d9%81%d8%a9-%d8%b1%d9%88%d8%b3%d9%8a%d8%a9-%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d8%aa%d8%b9%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d8%ba%d8%b1%d8%a8-%d8%a8%d9%87%d8%af%d9%88%d8%a1-%d9%85%d8%b9</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2023/09/gabon-2-1693551352.jpg</Src>
+				<H4>صحيفة روسية: لماذا تعامل الغرب بهدوء مع انقلاب الغابون؟</H4>
+				<P>ذكر تقرير نشرته صحيفة نيزافيسيمايا الروسية أنه على النقيض من الانقلابات في مالي والنيجر وبوركينا فاسو، أعلن جيش الغابون أن البلاد لن تتخلى عن التزاماتها السابقة، ولن تغير مسار سياستها الخارجية.</P>
 				<dir>rtl</dir>
 				<Website>الجزيرة.نت</Website>
 			</Card>
 			<Card>
 				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/8/28/%d8%a8%d9%88%d9%84%d9%86%d8%af%d8%a7-%d9%88%d8%af%d9%88%d9%84-%d8%a7%d9%84%d8%a8%d9%84%d8%b7%d9%8a%d9%82-%d8%aa%d8%b7%d8%a7%d9%84%d8%a8-%d8%a8%d9%8a%d9%84%d8%a7%d8%b1%d9%88%d8%b3%d9%8a%d8%a7</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2023/08/poland-1693239135.jpg</Src>
-				<H4>بولندا ودول البلطيق تطالب بيلاروسيا بطرد مجموعة فاغنر من أراضيها</H4>
-				<P>أعلن وزير الداخلية البولندي ماريوش كامينسكي أن بلاده ودول البلطيق طالبت -اليوم الاثنين- بيلاروسيا بطرد مجموعة فاغنر العسكرية الروسية.</P>
+				<Href>https://www.aljazeera.net/news/2023/9/1/%d8%b1%d8%af%d8%a7-%d8%b9%d9%84%d9%89-%d8%b1%d8%ac%d9%85-%d8%b4%d8%b1%d8%b7%d9%8a-%d8%b9%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d9%82%d8%aa%d9%84%d9%89-%d8%a8%d9%85%d8%b8%d8%a7%d9%87%d8%b1%d8%a7%d8%aa</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2023/09/Reuters-50-1693543877.jpg</Src>
+				<H4>ردا على رجم شرطي.. عشرات القتلى بمظاهرات شرقي الكونغو</H4>
+				<P>قالت حكومة جمهورية الكونغو الديمقراطية إن أكثر من 40 شخصا قتلوا وأصيب 56 خلال تصدي الجيش لمظاهرات مناهضة للأمم المتحدة في مدينة غوما شرقي البلاد.</P>
 				<dir>rtl</dir>
 				<Website>الجزيرة.نت</Website>
 			</Card>
 			<Card>
 				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/politics/2023/8/28/%d8%b5%d8%ad%d9%8a%d9%81%d8%a9-%d8%b1%d9%88%d8%b3%d9%8a%d8%a9-%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d8%ba%d8%a7%d8%b6%d8%a8%d8%a9-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d9%88%d9%82%d9%81</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2023/08/niger2-1693238356.jpg</Src>
-				<H4>صحيفة روسية: فرنسا غاضبة من الموقف الأميركي من تطورات النيجر</H4>
-				<P>على عكس حلفائها الأوروبيين، ترفض الولايات المتحدة وصف التطورات التي طرأت على المشهد السياسي في نيامي بالانقلاب العسكري، على أمل فض الصراع بطريقة دبلوماسية، بحسب ما أوردته صحيفة إزفيستيا.</P>
+				<Href>https://www.aljazeera.net/news/2023/9/1/%d8%a7%d9%84%d9%86%d9%8a%d8%ac%d8%b1-%d8%aa%d8%b9%d9%84%d9%82-%d8%a3%d9%86%d8%b4%d8%b7%d8%a9-%d8%a7%d9%84%d9%85%d9%86%d8%b8%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d9%88%d9%84%d9%8a%d8%a9</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2023/09/32042427-1693561702.jpg</Src>
+				<H4>شرطة النيجر تواصل تطويق السفارة الفرنسية وباريس تحذر</H4>
+				<P>تواصل الشرطة في النيجر تطويق مقر السفارة الفرنسية، فيما تم حظر أنشطة المنظمات الدولية وغير الحكومية. وفي السياق بحثت واشنطن والجزائر الوضع عقب الانقلاب الذي أطاح بالرئيس المحتجز محمد بازوم.</P>
 				<dir>rtl</dir>
 				<Website>الجزيرة.نت</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86726</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/2008b0c87e01f9a49d3a545b885a72ba.jpeg</Src>
-				<H4>التحقيق مع روسي في بيروت بشبهة التجسس لصالح إسرائيل</H4>
+				<Href>https://www.alquds.com/ar/posts/87406</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/295a4377c94414d7d8b08f6e5e7170c5.jpg</Src>
+				<H4>سنغافورة تنظم أول انتخابات رئاسية منذ أكثر من 10 سنوات</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86722</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/0825d4df53d68d7adad44cfc610d542f.jpg</Src>
-				<H4>إدارة بايدن توجه رسالة حادة للحكومة الإسرائيلية</H4>
+				<Href>https://www.alquds.com/ar/posts/87400</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/21738e5eb57e2628c0d959997924cd58.jpg</Src>
+				<H4>الديمقراطيون يدعمون إلهان عمر في مواجهة تهديدات اللوبي الإسرائيلي</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86715</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/6ef0a8dd3dc0617c702d04de096baef7.jpg</Src>
-				<H4>اشتباكات بين مجموعات مسلحة لقوات سوريا الديمقراطية شرق سوريا</H4>
+				<Href>https://www.alquds.com/ar/posts/87388</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/a635e79ccab5a028040b18129ef6ea5d.jpg</Src>
+				<H4>زيلينسكي يضغط على واشنطن للحصول على اتفاق امني على أساس "النموذج الإسرائيلي"</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86703</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/d9497756153ad55c4e2af11a0af5346c.jpeg</Src>
-				<H4>الجيش اللبناني يعلن إحباط محاولة تسلل 850 سوريا خلال أسبوع</H4>
+				<Href>https://www.alquds.com/ar/posts/87371</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/719c05b3df6cbde1100a5d28695f7452.jpg</Src>
+				<H4>أرمينيا تعلن مقتل اثنين من جنودها بنيران أذربيجانية</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86700</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/d71840819ef0abad33aa9ba8efe9c373.jpeg</Src>
-				<H4>جهاز أمن مطار طرابلس ينفي السماح بمغادرة وزيرة الخارجية إلى تركيا</H4>
+				<Href>https://www.alquds.com/ar/posts/87362</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/8a9da98fcd6a73612f99131726d2b074.jpg</Src>
+				<H4>سجناء يحتجزون 57 حارسا وشرطيا في الإكوادور</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86691</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/2aba84bc09b08418787c55a1b7ea9ca8.jpg</Src>
-				<H4>اوكرانيا تعلن استعادة قرية على الجبهة الجنوبية</H4>
+				<Href>https://www.alquds.com/ar/posts/87358</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/21d4023ff4e132c48ad154b1b3954c4d.jpg</Src>
+				<H4>نقص الأدوية والرعاية الطبية في تشاد يفاقم أوجاع اللاجئين من السودان </H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86684</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/4a856d2168efc542e0afe9eea0d354e5.jpg</Src>
-				<H4>وارسو وفيلنيوس وريغا تطالب بيلاروس بطرد مجموعة فاغنر</H4>
+				<Href>https://www.alquds.com/ar/posts/87348</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/d68dda7003430de5d0c5b8ac2fa93ecd.jpg</Src>
+				<H4>إحباط هجوم جديد بمسيرة في منطقة موسكو</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86663</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/c6f5c3dbc9f16a25de76e9274254ffa7.jpg</Src>
-				<H4>مؤسس شركة "فوكسكون" العملاقة يعلن ترشحه لرئاسة تايوان</H4>
+				<Href>https://www.alquds.com/ar/posts/87335</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/39be48da1e01b2c5804c386e7b1bed5a.jpg</Src>
+				<H4>مقتل سائحين مغربيين تاها في البحر برصاص خفر السواحل الجزائري</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86652</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/b542dc93efcf34afa3eeaa7d4bcc71d4.jpeg</Src>
-				<H4>روسيا تعتقل شخصا بتهمة نقل معلومات بشأن حرب أوكرانيا إلى السفارة الأميركية</H4>
+				<Href>https://www.alquds.com/ar/posts/87332</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/91b1cf7c1eb33a785126f68c97b7c7f0.jpg</Src>
+				<H4>ترامب يدفع ببراءته من تهمة محاولة التلاعب بنتائج انتخابات 2020 في جورجيا</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86640</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/bcef85fe60b6349887b6b23953152313.jpeg</Src>
-				<H4>فرنسا.. العثور على رأس خنزير بري أمام القنصلية المغربية في كورسيكا</H4>
+				<Href>https://www.alquds.com/ar/posts/87329</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/2a6deee8ae3a219daeefe995b241093a.gif</Src>
+				<H4>تمديد تفويض قوة يونيفيل في جنوب لبنان لمدة عام</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86630</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/2c3ef6261dbd31f92e31faf715ff9f05.jpg</Src>
-				<H4>ثلاثة قتلى من المارينز نتيجة تحطم الطائرة العسكرية الأميركية في أستراليا</H4>
+				<Href>https://www.alquds.com/ar/posts/87311</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/0c134d5df6e5489a0f1887b1adc2d23c.jpg</Src>
+				<H4>إيران تعلن إحباط محاولة "تخريب" إسرائيلية لبرنامجها الصاروخي</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86591</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/d6fc8a8575c5d676ea1a39f66bbfeaf0.jpg</Src>
-				<H4>فرنسا ستحظر ارتداء العباية الإسلامية في المدارس باسم العلمانية</H4>
+				<Href>https://www.alquds.com/ar/posts/87302</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/9cf6328b73771518ab230932949841bb.jpg</Src>
+				<H4>البرهان : الحرب قد تتسبب في تفتيت السودان إذا لم تحسم </H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86584</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/7731ebf10cbc7efd3db6b4b5d82863f4.jpg</Src>
-				<H4>"قبرص التركية" تفتتح محطة جديدة للركاب في مطارها وتحلم برحلات دولية</H4>
+				<Href>https://www.alquds.com/ar/posts/87296</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/f160495ec704d9b6443533da892f6092.jpg</Src>
+				<H4>الحكم بالسجن المؤبد على إيراني وأربعة عراقيين ادينو بقتل أميركي في بغداد</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86572</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/c9c114257b4d84933f8e658d241364e5.jpg</Src>
-				<H4>"إسرائيل" تزعم: اللقاء مع وزيرة الخارجية الليبية كان منسق له مع كبار المسؤولين في طرابلس</H4>
+				<Href>https://www.alquds.com/ar/posts/87288</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/4e4d0d3a82ae7d7905d7a6af22975031.jpg</Src>
+				<H4>إدانة روسي في ألمانيا بتهمة التخطيط لقتل معارض شيشاني</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86554</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/e56ca6e5b05059468fc0e02f16ccde6b.jpg</Src>
-				<H4>زيلينسكي يقاطعها.. غضب أوكراني شديد من "إسرائيل"</H4>
+				<Href>https://www.alquds.com/ar/posts/87277</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/7a6f6fa30aff115558b561896f21cc60.jpg</Src>
+				<H4>كوريا الشمالية تؤكد إطلاق صاروخَين بالستيَين في إطار "محاكاة لضربة نووية تكتيكية"</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86548</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/04c8f94f8fcded411377eac68e004f29.jpg</Src>
-				<H4>قصف إسرائيلي يطال مطار حلب ويخرجه عن الخدمة</H4>
+				<Href>https://www.alquds.com/ar/posts/87252</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/8e87fbb334a9c8ebecc6317407b0f824.jpg</Src>
+				<H4>بدء تدريبات عسكرية مشتركة بين الولايات المتحدة وإندونيسيا</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86542</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/96a72278b73dcea8fc5d3d4b270fc73f.jpg</Src>
-				<H4>الدبيبة يوقف المنقوش والأخيرة توضح حقيقة اللقاء مع كوهين</H4>
+				<Href>https://www.alquds.com/ar/posts/87221</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/f2edc3f74435b484af031236327fa53a.png</Src>
+				<H4>استقالة وزير الدفاع البريطاني بن والاس</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86533</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/0a8cad121f1a87c48aca9e57c1305674.jpg</Src>
-				<H4>ثلاثة نواب أميركيين يزورون منطقة خاضعة للمعارضة في شمال سوريا</H4>
+				<Href>https://www.alquds.com/ar/posts/87207</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/984f7f35785c66610d1326ccc426445f.jpg</Src>
+				<H4>الحرب تنعش تجارة الأسلحة في شرق السودان</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86527</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/213d43f6f0d1ab37abd15c72c745dc04.webp</Src>
-				<H4>حريق هائل يتسبب بتدمير أكثر من 70 مسكنا لنازحين ومهاجرين في مأرب باليمن</H4>
+				<Href>https://www.alquds.com/ar/posts/87198</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/f842d2c192ecf65836684714d4c9ce6a.jpg</Src>
+				<H4>ارتفاع حصيلة قتلى حريق جوهانسبرغ إلى 63 شخصا</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86515</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/ded13fc606cb1926e845a3d6794813a1.jpg</Src>
-				<H4>ولي العهد السعودي يطلق مخطط المراكز اللوجستية لدعم المملكة كمركز لوجستي عالمي</H4>
+				<Href>https://www.alquds.com/ar/posts/87159</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/ab870cf6e870a4af49cfb760f4fb4030.jpg</Src>
+				<H4>واشنطن توافق على أول شحنة أسلحة لتايوان بموجب برنامج مساعدات للدول الأجنبية</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/86505</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/32c8955d324803a93227cf7a1769a1a0.jpg</Src>
-				<H4>اعتقال عنصر من تنظيم الدولة الاسلامية داخل فندق في بغداد</H4>
+				<Href>https://www.alquds.com/ar/posts/87152</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/966bf1903a8131a92ed15aaa4047b04e.jpg</Src>
+				<H4>إسقاط مسيّرة أوكرانية في موسكو</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>

@@ -58,6 +58,15 @@
 		<Cards>
 			<Card>
 				<Class>column ly-news</Class>
+				<Href>https://alwasat.ly/news/libya/410541</Href>
+				<Src>http://alwasat.ly/uploads/articles/7SyrOhJjWOihpjhHNTfA.jpg</Src>
+				<H4>حصيلة المصابين بالتسمم في الخمس ترتفع إلى 42 حالة</H4>
+				<P>حصيلة المصابين بالتسمم في الخمس ترتفع إلى 42 حالة</P>
+				<dir>rtl</dir>
+				<Website>بوابة الوسط</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
 				<Href>https://alwasat.ly/news/libya/410537</Href>
 				<Src>http://alwasat.ly/uploads/articles/EpEhOdGMnkjOpTAOrhz7.jpg</Src>
 				<H4>حالة الطقس في ليبيا (الجمعة 1 سبتمبر 2023)</H4>
@@ -152,15 +161,6 @@
 				<Src>http://alwasat.ly/uploads/articles/WiqPJuPf2WMiMM6uom2r.jpg</Src>
 				<H4>إدارة مستشفى حكومي تستولي على أجهزة طبية بقيمة مليون و25 ألف دينار</H4>
 				<P>إدارة مستشفى حكومي تستولي على أجهزة طبية بقيمة مليون و25 ألف دينار</P>
-				<dir>rtl</dir>
-				<Website>بوابة الوسط</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://alwasat.ly/news/libya/410515</Href>
-				<Src>http://alwasat.ly/uploads/articles/cf3pZn0o8ibkEEix7nEQ.jpg</Src>
-				<H4>شاهد.. برنامج «فلوسنا» يناقش واقع قطاع الاتصالات في ليبيا</H4>
-				<P>شاهد.. برنامج «فلوسنا» يناقش واقع قطاع الاتصالات في ليبيا</P>
 				<dir>rtl</dir>
 				<Website>بوابة الوسط</Website>
 			</Card>
@@ -463,6 +463,96 @@
 			</Card>
 			<Card>
 				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2223108.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/اسعار-الاسمنت-فى-ليبيا-اليوم-145x100.jpg</Src>
+				<H4>انخفاض فـي اسعار الاسمنت بعـدد من الشركات بالسوق المحلي في ليبيا اليوم</H4>
+				<P>انخفاض فـي اسعار الاسمنت بعـدد من الشركات بالسوق المحلي في ليبيا اليوم</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2223104.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/03/اللحوم-الدواجن-البيض-145x100.jpg</Src>
+				<H4>تغيير جماعي فـي اسعار اللحوم و الدجاج المحلي في أسواق ليبيا اليوم</H4>
+				<P>تغيير جماعي فـي اسعار اللحوم و الدجاج المحلي في أسواق ليبيا اليوم</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2223102.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/06/هانيبال-القذافي-في-2011-145x100.jpeg</Src>
+				<H4>رئيس البرلمان اللبناني يهاجم السلطات الليبية والقذافي</H4>
+				<P>رئيس البرلمان اللبناني يهاجم السلطات الليبية والقذافي</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2223099.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/20230901-142918news-template_-_2023-09-01t162633.152-145x100.jpg</Src>
+				<H4>أوباري: سقوط أبراج كهرباء – بوابة أفريقيا الإخبارية</H4>
+				<P>أوباري: سقوط أبراج كهرباء – بوابة أفريقيا الإخبارية</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2223097.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2022/06/286847937_547094843561223_4142223566926388198_n-1024x538-145x100.jpg</Src>
+				<H4>الجديد: الليبيون لم يطالبوا بإسقاط الدبيبة كي لا يخسروا المرتبات والكهرباء</H4>
+				<P>الجديد: الليبيون لم يطالبوا بإسقاط الدبيبة كي لا يخسروا المرتبات والكهرباء</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2223094.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/08/عملة-145x100.jpg</Src>
+				<H4>مصلحة التسجيل العقاري توضح بشأن الإفراجات المالية عن مرتبات الموظفين ـ الاسماء</H4>
+				<P>مصلحة التسجيل العقاري توضح بشأن الإفراجات المالية عن مرتبات الموظفين ـ الاسماء</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2223091.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/ذهب--145x100.jpg</Src>
+				<H4>كيتكو: ليبيا اشترت 30 طنا من الذهب في يونيو الفائت</H4>
+				<P>كيتكو: ليبيا اشترت 30 طنا من الذهب في يونيو الفائت</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/breaking/2223089.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/01/libya-now-145x100.jpg</Src>
+				<H4>مركز طب الطوارئ والدعم فرع طرابلس يرفع حالة التأهب القصوى</H4>
+				<P>مركز طب الطوارئ والدعم فرع طرابلس يرفع حالة التأهب القصوى</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2223078.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/20230901-133706news-template_-_2023-09-01t153600.497-145x100.jpg</Src>
+				<H4>طرابلس: انتشار أمني كثيف لمنع خروج المتظاهرين رفضا للتطبيع مع إسرائيل</H4>
+				<P>طرابلس: انتشار أمني كثيف لمنع خروج المتظاهرين رفضا للتطبيع مع إسرائيل</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
+				<Href>https://www.libyaakhbar.com/libya-news/2223075.html</Href>
+				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/IMG_20230901_153831_348-145x100.jpg</Src>
+				<H4>المرغني: اقترح إصدار تشريع قانوني يمنع التواصل مع الكيان الصهيوني</H4>
+				<P>المرغني: اقترح إصدار تشريع قانوني يمنع التواصل مع الكيان الصهيوني</P>
+				<dir>rtl</dir>
+				<Website>اخبار ليبيا</Website>
+			</Card>
+			<Card>
+				<Class>column ly-news</Class>
 				<Href>https://www.libyaakhbar.com/libya-news/2223069.html</Href>
 				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/34a759c7-fd5e-4d05-afae-aa3a2dce886e-145x100.jpeg</Src>
 				<H4>“الحويج” يبحث المشكلات التي تواجه وزارة الخارجية</H4>
@@ -557,96 +647,6 @@
 				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/PSDالعنوان-12-145x100.jpg</Src>
 				<H4>تحشيد أمني بوسط طرابلس لمنع التظاهر ضد إسقاط حكومة الوحدة</H4>
 				<P>تحشيد أمني بوسط طرابلس لمنع التظاهر ضد إسقاط حكومة الوحدة</P>
-				<dir>rtl</dir>
-				<Website>اخبار ليبيا</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2223021.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/5ECD9D5C-EDDA-45AC-85B1-3E8753E7684C-145x100.jpeg</Src>
-				<H4>انطلاق أولى رحلات الخطوط الليبية إلى المدينة المنورة الشهر الجاري</H4>
-				<P>انطلاق أولى رحلات الخطوط الليبية إلى المدينة المنورة الشهر الجاري</P>
-				<dir>rtl</dir>
-				<Website>اخبار ليبيا</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2223018.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/fc2b7abc-518c-4dd3-bfeb-9cc65353bc0a-145x100.jpg</Src>
-				<H4>ليبيا.. حصيلة مصابي التسمم الغذائي في الخمس ترتفع لـ 42 حالة</H4>
-				<P>ليبيا.. حصيلة مصابي التسمم الغذائي في الخمس ترتفع لـ 42 حالة</P>
-				<dir>rtl</dir>
-				<Website>اخبار ليبيا</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2223016.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/03/سبها-الطبي-145x100.jpg</Src>
-				<H4>الماهري: العناية الخاصة بمركز سبها تشهد إعادة توسعة لاستيعاب ما يقارب 30 سرير</H4>
-				<P>الماهري: العناية الخاصة بمركز سبها تشهد إعادة توسعة لاستيعاب ما يقارب 30 سرير</P>
-				<dir>rtl</dir>
-				<Website>اخبار ليبيا</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2223010.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/قوات-الوفاق-2020-145x100.jpg</Src>
-				<H4>استنفار أمني مكثف وانتشار للآليات المسلحة والمدرعات في شوارع العاصمة طرابلس</H4>
-				<P>استنفار أمني مكثف وانتشار للآليات المسلحة والمدرعات في شوارع العاصمة طرابلس</P>
-				<dir>rtl</dir>
-				<Website>اخبار ليبيا</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2223005.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/20230901-10380220230112-132830jpg-145x100.jpg</Src>
-				<H4>معهد واشنطن: المنقوش تفتقر إلى الدبلوماسية ونفوذها محدود</H4>
-				<P>معهد واشنطن: المنقوش تفتقر إلى الدبلوماسية ونفوذها محدود</P>
-				<dir>rtl</dir>
-				<Website>اخبار ليبيا</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2223002.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/IMG_20230901_112239_563-145x100.jpg</Src>
-				<H4>باره: الأفضل الإبقاء على حكومة الدبيبة</H4>
-				<P>باره: الأفضل الإبقاء على حكومة الدبيبة</P>
-				<dir>rtl</dir>
-				<Website>اخبار ليبيا</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2222995.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/04/WhatsApp-Image-2023-04-15-at-11.10.42-AM-145x100.jpeg</Src>
-				<H4>الأرصاد الجوية: ارتفاع على درجات الحرارة خلال اليومين القادمين</H4>
-				<P>الأرصاد الجوية: ارتفاع على درجات الحرارة خلال اليومين القادمين</P>
-				<dir>rtl</dir>
-				<Website>اخبار ليبيا</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2222992.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/0e5433d8-dbef-4df8-a4e4-649f34eeab18-145x100.jpg</Src>
-				<H4>ليبيا.. إدارة مستشفى حكومي تستولي على أجهزة طبية بقيمة مليون و25 ألف دينار</H4>
-				<P>ليبيا.. إدارة مستشفى حكومي تستولي على أجهزة طبية بقيمة مليون و25 ألف دينار</P>
-				<dir>rtl</dir>
-				<Website>اخبار ليبيا</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2222990.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/05/قرنفيل-145x100.jpg</Src>
-				<H4>قرنفيل: الطاقة والخدمات اللوجستية ستشكلان ركائز وصول حجم التجارة بين تركيا وليبيا إلى 15 مليار دولار</H4>
-				<P>قرنفيل: الطاقة والخدمات اللوجستية ستشكلان ركائز وصول حجم التجارة بين تركيا وليبيا إلى 15 مليار دولار</P>
-				<dir>rtl</dir>
-				<Website>اخبار ليبيا</Website>
-			</Card>
-			<Card>
-				<Class>column ly-news</Class>
-				<Href>https://www.libyaakhbar.com/libya-news/2222979.html</Href>
-				<Src>https://www.libyaakhbar.com/wp-content/uploads/2023/09/photo_6021570632216591771_y-145x100.jpg</Src>
-				<H4>صحيفة “إل فوليو”: تنافس فرنسا وإيطاليا على ليبيا يتحول إلى حرب دبلوماسية مفتوحة</H4>
-				<P>صحيفة “إل فوليو”: تنافس فرنسا وإيطاليا على ليبيا يتحول إلى حرب دبلوماسية مفتوحة</P>
 				<dir>rtl</dir>
 				<Website>اخبار ليبيا</Website>
 			</Card>
@@ -841,6 +841,33 @@
 			</Card>
 			<Card>
 				<Class>column ar-news</Class>
+				<Href>https://www.aljazeera.net/news/2023/9/1/%d9%88%d8%b2%d9%8a%d8%b1-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a-%d8%b9%d9%84%d8%a7%d9%82%d8%a7%d8%aa%d9%86%d8%a7-%d9%85%d8%b9</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2020/05/Al-Jazeera-Breaking-News.jpg</Src>
+				<H4>وزير الخارجية الإيراني: علاقاتنا مع لبنان إستراتيجية وندعم المقاومة للحفاظ على مصلحة لبنان في وجه الاحتلال</H4>
+				<P>وزير الخارجية الإيراني: علاقاتنا مع لبنان إستراتيجية وندعم المقاومة للحفاظ على مصلحة لبنان في وجه الاحتلال</P>
+				<dir>rtl</dir>
+				<Website>الجزيرة.نت</Website>
+			</Card>
+			<Card>
+				<Class>column ar-news</Class>
+				<Href>https://www.aljazeera.net/news/2023/9/1/%d9%85%d8%b9-%d8%aa%d8%aa%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8%d8%a7%d8%aa-%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d9%81%d9%8a</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2023/08/image-461.jpg</Src>
+				<H4>مع تتالي الانقلابات.. ما خيارات فرنسا لمواجهة الغضب الأفريقي؟</H4>
+				<P>جاءت الطعنة فوق الطعنة، وتلقى العالم بعد أسابيع من انقلاب النيجر خبر انقلاب جديد في الغابون، إحدى أهم الدول الأفريقية الناطقة بالفرنسية، لتكون باريس أمام متغير جديد ينضاف إلى سلة أزماتها الأفريقية.</P>
+				<dir>rtl</dir>
+				<Website>الجزيرة.نت</Website>
+			</Card>
+			<Card>
+				<Class>column ar-news</Class>
+				<Href>https://www.aljazeera.net/news/2023/9/1/%d8%a8%d9%86-%d8%ba%d9%81%d9%8a%d8%b1-%d9%8a%d9%82%d9%8a%d8%af-%d8%b2%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%a7%d8%a6%d9%84%d8%a7%d8%aa</Href>
+				<Src>https://www.aljazeera.net/wp-content/uploads/2023/03/4-29.jpg</Src>
+				<H4>بن غفير يقيد زيارات العائلات الفلسطينية لأبنائها الأسرى</H4>
+				<P>قرر وزير الأمن القومي الإسرائيلي إيتمار بن غفير تقليص زيارات العائلات الفلسطينية في الضفة الغربية لأبنائها في سجون الاحتلال، من مرة كل شهر إلى مرة كل شهرين.</P>
+				<dir>rtl</dir>
+				<Website>الجزيرة.نت</Website>
+			</Card>
+			<Card>
+				<Class>column ar-news</Class>
 				<Href>https://www.aljazeera.net/news/2023/9/1/%d8%b3%d9%88%d8%b1%d9%8a%d8%a7-54</Href>
 				<Src>https://www.aljazeera.net/wp-content/uploads/2023/09/reuters-51-1693563836.jpg</Src>
 				<H4>هجمات ضد "سوريا الديمقراطية" بجرابلس وتواصل الاحتجاجات بالسويداء</H4>
@@ -886,15 +913,6 @@
 			</Card>
 			<Card>
 				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/9/1/%d8%b9%d8%a7%d8%ac%d9%84-%d9%88%d8%b2%d9%8a%d8%b1-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d9%88%d8%b3%d9%8a-%d8%a8%d8%af%d8%a1-%d8%a7%d9%84%d8%b9%d9%85%d9%84</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2023/09/RC2ECX91YDPR-1693576209.jpg</Src>
-				<H4>موسكو تبدأ تسليم الحبوب الروسية إلى 6 دول أفريقية دون مقابل</H4>
-				<P>أعلن وزير الخارجية الروسي سيرغي لافروف بدء العمل على تسليم الحبوب الروسية إلى 6 دول أفريقية دون مقابل، يأتي ذلك عقب لقاء جمع لافروف بنظيره التركي هاكان فيدان في موسكو أمس الخميس.</P>
-				<dir>rtl</dir>
-				<Website>الجزيرة.نت</Website>
-			</Card>
-			<Card>
-				<Class>column ar-news</Class>
 				<Href>https://www.aljazeera.net/news/2023/9/1/%d8%b1%d8%af%d8%a7-%d8%b9%d9%84%d9%89-%d8%b1%d8%ac%d9%85-%d8%b4%d8%b1%d8%b7%d9%8a-%d8%b9%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d9%82%d8%aa%d9%84%d9%89-%d8%a8%d9%85%d8%b8%d8%a7%d9%87%d8%b1%d8%a7%d8%aa</Href>
 				<Src>https://www.aljazeera.net/wp-content/uploads/2023/09/Reuters-50-1693543877.jpg</Src>
 				<H4>ردا على رجم شرطي.. عشرات القتلى بمظاهرات شرقي الكونغو</H4>
@@ -912,22 +930,13 @@
 				<Website>الجزيرة.نت</Website>
 			</Card>
 			<Card>
-				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/9/1/%d8%b9%d8%a7%d8%ac%d9%84-%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%af%d9%81%d8%a7%d8%b9-%d8%a7%d9%84%d8%a3%d8%b1%d9%85%d9%8a%d9%86%d9%8a%d8%a9-%d9%85%d9%82%d8%aa%d9%84</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2022/09/25F-2.jpg</Src>
-				<H4>أرمينيا تعلن مقتل اثنين من جنودها باشتباكات حدودية مع أذربيجان</H4>
-				<P>أعلنت وزارة الدفاع الأرمنية اليوم الجمعة مقتل جنديين وإصابة ثالث بنيران أذربيجانية قرب الحدود بين البلدين، في ظل التوتر المخيم على خلفية النزاع حول منطقة ناغورني قره باغ.  </P>
+				<Class>column all-news</Class>
+				<Href>https://www.alquds.com/ar/posts/87406</Href>
+				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/295a4377c94414d7d8b08f6e5e7170c5.jpg</Src>
+				<H4>سنغافورة تنظم أول انتخابات رئاسية منذ أكثر من 10 سنوات</H4>
+				<P></P>
 				<dir>rtl</dir>
-				<Website>الجزيرة.نت</Website>
-			</Card>
-			<Card>
-				<Class>column ar-news</Class>
-				<Href>https://www.aljazeera.net/news/2023/9/1/%d9%85%d8%ad%d9%83%d9%85%d8%a9-%d8%b9%d8%b1%d8%a7%d9%82%d9%8a%d8%a9-%d8%aa%d8%b5%d8%af%d8%b1-%d8%ad%d9%83%d9%85%d8%a7-%d8%a8%d8%a7%d9%84%d9%85%d8%a4%d8%a8%d8%af-%d8%b9%d9%84%d9%89</Href>
-				<Src>https://www.aljazeera.net/wp-content/uploads/2023/09/2-1693546730.jpg</Src>
-				<H4>أحكام عراقية بالمؤبد على إيراني وعراقيين بتهمة قتل أميركي</H4>
-				<P>أصدرت محكمة عراقية حكما بالسجن المؤبد على إيراني و4 عراقيين بتهمة قتل المواطن الأميركي ستيفن ترويل بالرصاص في أحد شوارع بغداد، وفق ما أكده مصدران قضائيان عراقيان، وقد رحبت واشنطن بذلك الحكم.</P>
-				<dir>rtl</dir>
-				<Website>الجزيرة.نت</Website>
+				<Website>القدس</Website>
 			</Card>
 			<Card>
 				<Class>column all-news</Class>
@@ -1105,15 +1114,6 @@
 				<Href>https://www.alquds.com/ar/posts/87152</Href>
 				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/966bf1903a8131a92ed15aaa4047b04e.jpg</Src>
 				<H4>إسقاط مسيّرة أوكرانية في موسكو</H4>
-				<P></P>
-				<dir>rtl</dir>
-				<Website>القدس</Website>
-			</Card>
-			<Card>
-				<Class>column all-news</Class>
-				<Href>https://www.alquds.com/ar/posts/87145</Href>
-				<Src>https://alquds.fra1.digitaloceanspaces.com/uploads/55cebf8fd62dc2260e62f05edef08f14.jpg</Src>
-				<H4>خلافات تؤجل التصويت على تمديد مهام اليونيفيل</H4>
 				<P></P>
 				<dir>rtl</dir>
 				<Website>القدس</Website>
